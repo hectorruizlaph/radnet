@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    margin-top: 0;
+}
+
+.mapContainer {
+    width: 100%;
+    height: 98vh;
+}
+
+.listContainer {
+    max-height: 98vh;
+    overflow-y: auto;
+}
+
+.listItemsText {
+    padding: .5rem 0;
+}
+
+.listItemsText:hover {
+    background-color: rgba(172, 172, 172, 0.288);
+}
+
+.listItems {
+    text-decoration: none;
+    color:black;
+}
