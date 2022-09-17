@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-mapbox",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Gatsby Mapbox",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "HR <hectorruizlaph@gmail.com>",
   "dependencies": {
     "@turf/bbox": "^6.0.1",
     "@turf/helpers": "^6.1.4",
