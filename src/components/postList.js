@@ -24,8 +24,8 @@ const PostList = () => {
   return (
     <div>
       <Link to="/">
-      <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-        <h1>Rednet</h1>
+      <div className={styles.allLocations}>
+        <img src="/logo.png" alt="radnet logo" />
         <p>See All Locations</p>
       </div>
       </Link>

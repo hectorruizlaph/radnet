@@ -63,6 +63,24 @@ a {
   border-radius: 10px;
 }
 
+.allLocations {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.allLocations > p{
+    font-size: calc(1rem - 6px);
+}
+
+.allLocations > img{
+    width: 6rem;
+}
+
+.allLocations:hover {
+    background-color: rgb(245, 245, 245);
+}
+
 .listItemsText {
   padding: 0.5rem 0 0.5rem 0.7rem;
 }
@@ -82,8 +100,10 @@ a {
 }
 
 .active > li {
-  background-color: rgb(240, 240, 240);
+  /* background-color: rgb(240, 240, 240); */
   border-left: 5px solid #8b1d1d;
-  border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 5px;
   border-bottom: 1px solid #8b1d1d;
+  border-top: 1px solid #8b1d1d;
 }

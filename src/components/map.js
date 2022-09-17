@@ -5,6 +5,7 @@ import { multiPoint } from "@turf/helpers"
 import Markers from "./markers"
 import "mapbox-gl/dist/mapbox-gl.css"
 import * as styles from "../styles/styles.module.css"
+import usePlaces from "../hooks/usePlaces"
 
 // replace with your own Mapbox token
 const MAPBOX_TOKEN =
@@ -16,6 +17,8 @@ const mapContainerStyle = {
 }
 
 const Map = props => {
+  const { placesData } = usePlaces()
+
   const mapContainerRef = useRef(null)
 
   const [map, setMap] = useState(null)
@@ -26,16 +29,21 @@ const Map = props => {
       accessToken: MAPBOX_TOKEN,
       style: "mapbox://styles/mapbox/streets-v11",
       // Empire State Building [lng, lat]
-      center: [-73.9856, 40.7497],
-      zoom: 10,
+      center: [-97.6650,39.2993],
+      zoom: 13,
     })
 
     map.addControl(new mapboxgl.NavigationControl(), "top-right")
 
+    // Create All Markers
+    placesData.map(coordinate =>
+      new mapboxgl.Marker().setLngLat(coordinate.coordinates).addTo(map)
+    )
+
     setMap(map)
 
     return () => map.remove()
-  }, [])
+  },[])
 
   useEffect(() => {
     if (!map) return
@@ -55,21 +63,22 @@ const Map = props => {
         ],
         {
           padding: 40,
-          maxZoom: 14,
+          maxZoom: 15,
           duration: 2000,
         }
       )
     } else {
       map.easeTo({
-        center: [-73.9856, 40.7497],
-        zoom: 10,
+        
+        center: [-97.6650,39.2993],
+        zoom: 4.3,
         duration: 2000,
       })
     }
   }, [map, props.places])
 
   return (
-    <div className={ styles.mapContainer}>
+    <div className={styles.mapContainer}>
       <div ref={mapContainerRef} style={mapContainerStyle}>
         {props.places && map && <Markers map={map} places={props.places} />}
       </div>
