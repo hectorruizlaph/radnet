@@ -1,32 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap");
 
 * {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .container {
-    display: flex;
-    margin-top: 0;
+  display: flex;
+  margin-top: 0;
 }
 
 .mapContainer {
-    width: 100%;
-    height: 98vh;
+  width: 100%;
+  height: 100vh;
 }
 
 .listContainer {
-    max-height: 98vh;
-    overflow-y: auto;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+/* custom scrolling bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+  height: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8b1d1dc2;
+  border-radius: 10px;
 }
 
 .listItemsText {
-    padding: .5rem 0;
+  padding: 0.5rem 0 0.5rem 0.7rem;
 }
 
 .listItemsText:hover {
-    background-color: rgba(172, 172, 172, 0.288);
+  background-color: rgb(245, 245, 245);
 }
 
 .listItems {
-    text-decoration: none;
-    color:black;
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: #8b1d1d;
+  background-color: rgb(206, 206, 206);
+}
+
+.active > li {
+  background-color: rgb(240, 240, 240);
+  border-left: 5px solid #8b1d1d;
+  border-bottom-left-radius: 15px;
+  border-bottom: 1px solid #8b1d1d;
 }

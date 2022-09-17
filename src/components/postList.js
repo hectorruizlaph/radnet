@@ -22,24 +22,36 @@ const PostList = () => {
   const nodes = data.allMarkdownRemark.nodes
 
   return (
-    <div className={styles.listContainer}>
-      <ul
-        style={{
-          listStyleType: "none",
-          padding: 0,
-        }}
-      >
-        {nodes.map(node => {
-          const title = node.frontmatter.title
-          return (
-            <Link to={node.fields.slug} className={styles.listItems}>
-              <li key={title} className={styles.listItemsText}>
-                {title}
-              </li>
-            </Link>
-          )
-        })}
-      </ul>
+    <div>
+      <Link to="/">
+      <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+        <h1>Rednet</h1>
+        <p>See All Locations</p>
+      </div>
+      </Link>
+      <div className={styles.listContainer}>
+        <ul
+          style={{
+            listStyleType: "none",
+            padding: 0,
+          }}
+        >
+          {nodes.map(node => {
+            const title = node.frontmatter.title
+            return (
+              <Link
+                to={node.fields.slug}
+                className={styles.listItems}
+                activeClassName={styles.active}
+              >
+                <li key={title} className={styles.listItemsText}>
+                  {title}
+                </li>
+              </Link>
+            )
+          })}
+        </ul>
+      </div>
     </div>
   )
 }

@@ -1,18 +1,18 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 const PostTemplate = ({ data }) => {
-  const frontmatter = data.markdownRemark.frontmatter
-  const html = data.markdownRemark.html
+  // const frontmatter = data.markdownRemark.frontmatter
+  // const html = data.markdownRemark.html
 
   return (
     <>
-      <div>
+      {/* <div>
         <h1>{frontmatter.title}</h1>
         <h2>{frontmatter.date}</h2>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
-      <Link to='/'>Back to Index</Link>
+      <Link to='/'>See All Locations</Link> */}
     </>
   )
 }

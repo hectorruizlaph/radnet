@@ -1,5 +1,8 @@
 const path = require("path")
+const fetch = require('node-fetch');
 const { createFilePath } = require(`gatsby-source-filesystem`)
+
+const NODE_TYPE = 'Places';
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -36,6 +39,32 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         slug: node.fields.slug,
       },
+    })
+  })
+}
+
+
+exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => {
+  const { createNode } = actions;
+
+  const response = await fetch('https://stage.radnet.com/locator/search/json');
+  const json = await response.json();
+  const matched = json.matched;
+
+  const matchedPlaces = matched.map(places => { 
+    return places
+  });
+  matchedPlaces.forEach((node, index) => {
+    createNode({
+      ...node,
+      id: createNodeId(`${NODE_TYPE}-${node.nid}`),
+      parent: null,
+      children: [],
+      internal: {
+        type: NODE_TYPE,
+        content: JSON.stringify(node),
+        contentDigest: createContentDigest(node),
+      }
     })
   })
 }

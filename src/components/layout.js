@@ -5,7 +5,7 @@ import PostList from "./postList"
 import * as styles from "../styles/styles.module.css"
 
 const Layout = props => {
-  const children = props.children
+  // const children = props.children
   const [places, setPlaces] = useState([])
 
   useEffect(() => {
@@ -21,8 +21,8 @@ const Layout = props => {
       <div className={styles.container}>
         <PostList />
         <Map places={places} />
-        <hr />
-        {/* <main>{children}</main> */}
+        {/* <hr />
+        <main>{children}</main> */}
       </div>
     </>
   )
