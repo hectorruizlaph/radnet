@@ -96,7 +96,6 @@ a {
 
 .active {
   color: #8b1d1d;
-  background-color: rgb(206, 206, 206);
 }
 
 .active > li {
@@ -106,4 +105,5 @@ a {
   border-top-left-radius: 5px;
   border-bottom: 1px solid #8b1d1d;
   border-top: 1px solid #8b1d1d;
+  background-color: rgb(245, 245, 245);
 }

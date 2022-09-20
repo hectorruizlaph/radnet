@@ -40,18 +40,25 @@ const Map = props => {
       new mapboxgl.Marker().setLngLat(coordinate.coordinates).addTo(map)
     )
 
+
     setMap(map)
 
+    // map.on("load", () => {
+    //   console.log('loadeeeeed')
+    // })
     return () => map.remove()
   },[])
 
   useEffect(() => {
+
     if (!map) return
 
     if (props.places && props.places.length !== 0) {
+      // let popup = ""
       const coords = []
       props.places.forEach(place => {
         coords.push([place.longitude, place.latitude])
+        // popup = `${props.places}`
       })
       const feature = multiPoint(coords)
       const box = bbox(feature)

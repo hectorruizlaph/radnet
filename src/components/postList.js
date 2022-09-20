@@ -22,14 +22,14 @@ const PostList = () => {
   const nodes = data.allMarkdownRemark.nodes
 
   return (
-    <div>
+    <div className={styles.listContainer}>
       <Link to="/">
       <div className={styles.allLocations}>
         <img src="/logo.png" alt="radnet logo" />
         <p>See All Locations</p>
       </div>
       </Link>
-      <div className={styles.listContainer}>
+      <div>
         <ul
           style={{
             listStyleType: "none",

@@ -57,7 +57,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
   matchedPlaces.forEach((node, index) => {
     createNode({
       ...node,
-      id: createNodeId(`${NODE_TYPE}-${node.nid}`),
+      id: createNodeId(`${NODE_TYPE}-${index}`),
       parent: null,
       children: [],
       internal: {
