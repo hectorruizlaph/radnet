@@ -7,8 +7,8 @@ state: New York
 stateAbbreviation: NY
 city: Rochester
 postal: 14618
-url: https://www.radnet.com/borg-and-ide/locations/clinton-crossings
-htmlHead: <meta name="description" content="Borg & Ide Imaging | Clinton Crossings offers 3T MRI, CT, Ultrasound, Mammography, PET/CT + more medical imaging exams in Rochester, New York." />
+url: (https://www.radnet.com/borg-and-ide/locations/clinton-crossings)
+htmlHead:    <meta name="description" content="Borg & Ide Imaging | Clinton Crossings offers 3T MRI, CT, Ultrasound, Mammography, PET/CT + more medical imaging exams in Rochester, New York." />
 <meta name="twitter:card" value="Borg & Ide Imaging | Clinton Crossings offers 3T MRI, CT, Ultrasound, Mammography, PET/CT + more medical imaging exams in Rochester, New York." />
 <meta itemprop="name" content="Borg & Ide Imaging | Clinton Crossings | New York" />
 <meta itemprop="description" content="Borg & Ide Imaging | Clinton Crossings offers 3T MRI, CT, Ultrasound, Mammography, PET/CT + more medical imaging exams in Rochester, New York." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Borg & Ide Imaging | Clinton Crossin
 <meta property="og:image" content="" />
 <meta property="og:description" content="Borg & Ide Imaging | Clinton Crossings offers 3T MRI, CT, Ultrasound, Mammography, PET/CT + more medical imaging exams in Rochester, New York." />
 <meta property="og:site_name" content="Borg & Ide Imaging" />
-body: <p>
+body:    <p>
 	For over 90 years, Borg and Ide Imaging has proudly offered diagnostic imaging across the Rochester region.
 </p><p>
 	Borg and Ide Imaging | Clinton Crossings is located on Senator Keating Boulevard in&nbsp;Brighton, NY.&nbsp;At this full-service imaging center, we offer 3T MRI, 1.2T Open/High Field MRI, CT, PET/CT, Nuclear Medicine, 3D Mammography, Ultrasound, Interventional Radiology, and more.
@@ -31,7 +31,7 @@ body: <p>
 </p><p>
 	Our Clinton Crossings location also offers Interventional Radiology. Interventional Radiology is loosely defined by its minimally invasive image-guided diagnostic and therapeutic procedures, giving Interventional Radiologists the ability to harness the power of advanced imaging (CT, MRI, Ultrasound, and other innovative modalities). These minimally invasive treatments can alleviate symptoms of vascular disease, stroke,&nbsp; cancer, and other conditions.
 </p>
-appointmentUrl: https://www.radnet.com/borg-and-ide/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/borg-and-ide/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

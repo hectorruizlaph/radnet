@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Columbia
 postal: 21045
-url: http://www.americanradiology.com//locations/howard-county
-htmlHead: <meta name="description" content="American Radiology Services | Howard County offers 3T MRI, 4D Ultrasound, 3D Mammography, PET/CT & more medical imaging exams in Columbia, Maryland." />
+url: (http://www.americanradiology.com//locations/howard-county)
+htmlHead:    <meta name="description" content="American Radiology Services | Howard County offers 3T MRI, 4D Ultrasound, 3D Mammography, PET/CT & more medical imaging exams in Columbia, Maryland." />
 <meta name="twitter:card" value="American Radiology Services | Howard County offers 3T MRI, 4D Ultrasound, 3D Mammography, PET/CT & more medical imaging exams in Columbia, Maryland." />
 <meta itemprop="name" content="American Radiology Services | Howard County" />
 <meta itemprop="description" content="American Radiology Services | Howard County offers 3T MRI, 4D Ultrasound, 3D Mammography, PET/CT & more medical imaging exams in Columbia, Maryland." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="American Radiology Services | Howard
 <meta property="og:image" content="https://www.radnet.com/american-radiology/sites/locator/files/field_location_photo/ARS-Howard.png" />
 <meta property="og:description" content="American Radiology Services | Howard County offers 3T MRI, 4D Ultrasound, 3D Mammography, PET/CT & more medical imaging exams in Columbia, Maryland." />
 <meta property="og:site_name" content="American Radiology" />
-body: <p>
+body:    <p>
 	<strong>Location Highlights:</strong>
 </p><ul class="bullet">
 	<li>
@@ -47,7 +47,7 @@ body: <p>
 </p><p>
 	You can find us located just off of the outer loop of the beltway near Meadowbrook Park, Howard High School and Orchard Crossing Townhomes. Make an appointment with our kind and helpful staff today. We will make sure to find a time that fits into your busy schedule.
 </p>
-appointmentUrl: https://www.radnet.com/american-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/american-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

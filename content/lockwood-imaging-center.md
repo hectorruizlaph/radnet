@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Silver Spring
 postal: 20901
-url: https://www.radnet.com/community-radiology/locations/lockwood-imaging-center
-htmlHead: <meta name="description" content="Community Radiology Associates | Lockwood Imaging Center offers MRI (3T Wide-Open), X-Ray & Ultrasound imaging exams in Silver Spring, Maryland." />
+url: (https://www.radnet.com/community-radiology/locations/lockwood-imaging-center)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Lockwood Imaging Center offers MRI (3T Wide-Open), X-Ray & Ultrasound imaging exams in Silver Spring, Maryland." />
 <meta name="twitter:card" value="Community Radiology Associates | Lockwood Imaging Center offers MRI (3T Wide-Open), X-Ray & Ultrasound imaging exams in Silver Spring, Maryland." />
 <meta itemprop="name" content="Community Radiology Associates | Lockwood Imaging Center" />
 <meta itemprop="description" content="Community Radiology Associates | Lockwood Imaging Center offers MRI (3T Wide-Open), X-Ray & Ultrasound imaging exams in Silver Spring, Maryland." />
@@ -20,8 +20,8 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Loc
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/lockwood%20photoshopped.jpg" />
 <meta property="og:description" content="Community Radiology Associates | Lockwood Imaging Center offers MRI (3T Wide-Open), X-Ray & Ultrasound imaging exams in Silver Spring, Maryland." />
 <meta property="og:site_name" content="Community Radiology" />
-body: null
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+body:    null
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

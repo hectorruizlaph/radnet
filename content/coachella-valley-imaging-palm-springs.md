@@ -7,10 +7,10 @@ state: California
 stateAbbreviation: CA
 city: Palm Springs 
 postal: 92262
-url: https://www.radnet.com/coachella-valley/locations/coachella-valley-imaging-palm-springs
-htmlHead: null
-body: null
-appointmentUrl: http://connect.radnet.com/CVI
+url: (https://www.radnet.com/coachella-valley/locations/coachella-valley-imaging-palm-springs)
+htmlHead:    null
+body:    null
+appointmentUrl: (http://connect.radnet.com/CVI)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

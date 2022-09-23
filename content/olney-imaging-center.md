@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Olney
 postal: 20832
-url: https://www.radnet.com/community-radiology/locations/olney-imaging-center
-htmlHead: <meta name="description" content="Community Radiology Associates | Olney Imaging Center offers MRI (1.2T Open/High Field), 3D Mammography, PET/CT & other exams in Olney, Maryland." />
+url: (https://www.radnet.com/community-radiology/locations/olney-imaging-center)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Olney Imaging Center offers MRI (1.2T Open/High Field), 3D Mammography, PET/CT & other exams in Olney, Maryland." />
 <meta name="twitter:card" value="Community Radiology Associates | Olney Imaging Center offers MRI (1.2T Open/High Field), 3D Mammography, PET/CT & other exams in Olney, Maryland." />
 <meta itemprop="name" content="Community Radiology Associates | Olney Imaging Center" />
 <meta itemprop="description" content="Community Radiology Associates | Olney Imaging Center offers MRI (1.2T Open/High Field), 3D Mammography, PET/CT & other exams in Olney, Maryland." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Oln
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/CRA-olney.png" />
 <meta property="og:description" content="Community Radiology Associates | Olney Imaging Center offers MRI (1.2T Open/High Field), 3D Mammography, PET/CT & other exams in Olney, Maryland." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p class="address" style="margin:0in;margin-bottom:.0001pt;line-height:17.75pt">
+body:    <p class="address" style="margin:0in;margin-bottom:.0001pt;line-height:17.75pt">
 	<span style="font-size:10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:#424040"><o:p></o:p></span>
 </p><p>
 	Community Radiology Associates (CRA) | Olney Imaging Center is part of CRA’s network of outpatient radiology centers located throughout Carroll, Frederick, Montgomery and Prince George’s counties in Maryland.
@@ -37,7 +37,7 @@ body: <p class="address" style="margin:0in;margin-bottom:.0001pt;line-height:17.
 </p><p>
 	<a href="/locator/sites/locator/files/imce/CRA_Montgomery%20County%20Locations%20Map2.pdf" style="font-family: merriweather; font-size: 16px; line-height: 25px;" target="_blank">Click here for a printable location sheet.</a>
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

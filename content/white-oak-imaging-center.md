@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Silver Spring
 postal: 20904
-url: https://www.radnet.com/community-radiology/locations/white-oak-imaging-center
-htmlHead: <meta name="description" content="Community Radiology Associates | White Oak Imaging Center offers MRI, 3D Mammography, Ultrasound, X-Ray & other exams in Silver Spring, Maryland." />
+url: (https://www.radnet.com/community-radiology/locations/white-oak-imaging-center)
+htmlHead:    <meta name="description" content="Community Radiology Associates | White Oak Imaging Center offers MRI, 3D Mammography, Ultrasound, X-Ray & other exams in Silver Spring, Maryland." />
 <meta name="twitter:card" value="Community Radiology Associates | White Oak Imaging Center offers MRI, 3D Mammography, Ultrasound, X-Ray & other exams in Silver Spring, Maryland." />
 <meta itemprop="name" content="Community Radiology Associates | White Oak Imaging Center" />
 <meta itemprop="description" content="Community Radiology Associates | White Oak Imaging Center offers MRI, 3D Mammography, Ultrasound, X-Ray & other exams in Silver Spring, Maryland." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Whi
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/whiteoak.jpg" />
 <meta property="og:description" content="Community Radiology Associates | White Oak Imaging Center offers MRI, 3D Mammography, Ultrasound, X-Ray & other exams in Silver Spring, Maryland." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p>
+body:    <p>
 	Community Radiology Associates | White Oak Imaging Center at corner is part of a network of&nbsp;outpatient radiology centers located throughout Carroll, Frederick, Montgomery and Prince George’s counties in Maryland. &nbsp;Our White Oak center is a full-service imaging center offering everything from MRI/MRA, CT/CTA, ultrasound, 3D mammography, DEXA for bone density measurement, fluoroscopy,&nbsp;Vertebral Fracture Assessment (VFA) and X-Ray.&nbsp;
 </p><p>
 	Community Radiology Associates | White Oak Imaging Center is proud to offer the latest tool in breast cancer screening – 3D mammography. Studies show that 3D mammography detects 40% invasive cancers than traditional mammography alone. So when it’s time for your annual mammogram, trust our womens imaging experts at White Oak.
@@ -33,7 +33,7 @@ body: <p>
 </p><p>
 	<a href="/locator/sites/locator/files/imce/CRA_Montgomery%20County%20Locations%20Map2.pdf" style="font-family: merriweather; font-size: 16px; line-height: 25px;" target="_blank">Click here for a printable location sheet.</a>
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

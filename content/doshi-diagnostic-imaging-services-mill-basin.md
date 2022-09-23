@@ -6,9 +6,9 @@ state: New York
 stateAbbreviation: NY
 city: Brooklyn
 postal: 11234
-url: https://www.radnet.com/lhr-acpny/locations/doshi-diagnostic-imaging-services-mill-basin
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/lhr-acpny/locations/doshi-diagnostic-imaging-services-mill-basin)
+htmlHead:    null
+body:    <p>
 	Mill Basin, a former Doshi Diagnostic Radiology location,&nbsp;is now part of the Lenox Hill Radiology's (LHR) network of 25 outpatient radiology centers in the New York metropolitan area.
 </p><p>
 	The Mill Basin imaging center is located near the intersection of Ralph Avenue and Avenue O in southeast Brooklyn and offers a complete array of diagnostic imaging exams including CT, MRI/MRA, 1.2T Open/High Field MRI, digital mammography, ultrasound, DEXA for bone density measurement and digital X-Ray.
@@ -19,7 +19,7 @@ body: <p>
 </p><p>
 	Lenox Hill Radiology | Mill Basin provides a full spectrum of state-of-the-art diagnostic imaging services in a caring and comfortable environment. Please call for more information about our radiology services and convenient operating hours.
 </p>
-appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

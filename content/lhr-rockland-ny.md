@@ -6,9 +6,9 @@ state: New York
 stateAbbreviation: NY
 city: West Nyack
 postal: 10994
-url: https://www.radnet.com/lhr-acpny/locations/lhr-rockland-ny
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/lhr-acpny/locations/lhr-rockland-ny)
+htmlHead:    null
+body:    <p>
 	Formerly RDI (Rockland Diagnostic Imaging), LHR | Rockland is Lenox Hill Radiology’s newest imaging center affiliate, and joins the most trusted and largest network of high-quality imaging centers in the metro New York region.
 </p><p>
 	LHR | Rockland boasts a brand new women’s imaging suite with the latest in 3D Mammography (Tomosynthesis), a 1.5T wide-open&nbsp;MRI, as well as Ultrasound, Dexa (for bone density),&nbsp;and digital X-Ray. Most appointments are available same-day, pending patient insurance verification and authorization, when applicable.
@@ -19,7 +19,7 @@ body: <p>
 </p><p>
 	You will continue to recognize the same friendly and caring staff that you have grown to know and trust. We look forward to serving you as LHR | Rockland.
 </p>
-appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

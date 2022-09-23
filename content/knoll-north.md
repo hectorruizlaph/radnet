@@ -7,10 +7,10 @@ state: Maryland
 stateAbbreviation: MD
 city: Columbia
 postal: 21045
-url: https://www.radnet.com/advanced-radiology/locations/knoll-north
-htmlHead: null
-body: null
-appointmentUrl: https://www.advancedradiology.com/for-patients/request-appointment
+url: (https://www.radnet.com/advanced-radiology/locations/knoll-north)
+htmlHead:    null
+body:    null
+appointmentUrl: (https://www.advancedradiology.com/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

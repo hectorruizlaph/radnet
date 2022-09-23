@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Frederick
 postal: 21702
-url: https://www.radnet.com/community-radiology/locations/frederick-imaging-center
-htmlHead: <meta name="description" content="Community Radiology Associates | Frederick Imaging Center in Frederick, Maryland offers 3T Wide-Open MRI, 3D Mammography and other imaging exams." />
+url: (https://www.radnet.com/community-radiology/locations/frederick-imaging-center)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Frederick Imaging Center in Frederick, Maryland offers 3T Wide-Open MRI, 3D Mammography and other imaging exams." />
 
 <meta name="twitter:card" value="Community Radiology Associates | Frederick Imaging Center in Frederick, Maryland offers 3T Wide-Open MRI, 3D Mammography and other imaging exams." />
 
@@ -23,7 +23,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Fre
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/CRA-frederick.png" />
 <meta property="og:description" content="Community Radiology Associates | Frederick Imaging Center in Frederick, Maryland offers 3T Wide-Open MRI, 3D Mammography and other imaging exams." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p>
+body:    <p>
 	Community Radiology Associates | Frederick Imaging Center is part of a network of&nbsp;outpatient imaging centers located throughout Carroll, Frederick, Montgomery, and Prince George’s Counties in Maryland. Our Frederick Imaging center offers a complete range of imaging services including 1.5T Wide-Open MRI and 3T Wide-Open MRI. Both MRI units at this location have a wide-bore design to accommodate claustrophobic and larger-sized patients. Other services include CT/CTA, fluoroscopy, bone density measurement,&nbsp;Vertebral Fracture Assessment (VFA), and X-Ray.
 </p><p>
 	Frederick Imaging centers offers also offers the latest technology in women’s imaging, including 3D/4D obstetric ultrasound and 3D mammography.&nbsp;
@@ -36,7 +36,7 @@ body: <p>
 </p><p>
 	Our radiology center welcomes walk-ins for X-ray studies and is open on weekends to accommodate the busy lifestyles of our patients.
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

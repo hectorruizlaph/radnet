@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Germantown
 postal: 20876
-url: https://www.radnet.com/community-radiology/locations/women’s-imaging-germantown
-htmlHead: <meta name="description" content="Community Radiology Associates | Women’s Imaging Germantown offers 3D Mammography, 4D Ultrasound, Bone Density & other exams in Germantown, Maryland." />
+url: (https://www.radnet.com/community-radiology/locations/women’s-imaging-germantown)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Women’s Imaging Germantown offers 3D Mammography, 4D Ultrasound, Bone Density & other exams in Germantown, Maryland." />
 <meta name="twitter:card" value="Community Radiology Associates | Women’s Imaging Germantown offers 3D Mammography, 4D Ultrasound, Bone Density & other exams in Germantown, Maryland." />
 <meta itemprop="name" content="Community Radiology Associates | Women’s Imaging Germantown" />
 <meta itemprop="description" content="Community Radiology Associates | Women’s Imaging Germantown offers 3D Mammography, 4D Ultrasound, Bone Density & other exams in Germantown, Maryland." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Wom
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/womens-imaging-center-germantown.jpg" />
 <meta property="og:description" content="Community Radiology Associates | Women’s Imaging Germantown offers 3D Mammography, 4D Ultrasound, Bone Density & other exams in Germantown, Maryland." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p>
+body:    <p>
 	Community Radiology Associates | Women's Imaging Germantown is part of a network of outpatient radiology centers located throughout Carroll, Frederick, Montgomery, and Prince George’s counties in Maryland. It is centrally located on the campus of Holy Cross Germantown Hospital.
 </p><p>
 	Our Germantown Women’s Imaging Center is a full-service women’s radiology center offering digital and 3D mammography, 3D/4D Ultrasound (featuring SnapIt – our free image sharing program), ultrasound-guided biopsies, DEXA for bone density measurement and X-Ray. No matter what type of imaging study your physician has referred you for, you can count on us to provide quality care with the most timely and precise results.
@@ -31,7 +31,7 @@ body: <p>
 </p><p>
 	Visit Community Radiology Associates | Women’s Imaging Center, Germantown for all of your women’s imaging needs. We are dedicated to providing leading-edge imaging services coupled with accurate diagnosis and efficient services. Please call us to find out more about our women’s imaging services and convenient appointment times.
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

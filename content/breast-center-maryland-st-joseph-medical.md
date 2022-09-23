@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Towson
 postal: 21204
-url: https://www.radnet.com/advanced-radiology/locations/breast-center-maryland-st-joseph-medical
-htmlHead: <meta name="description" content="Advanced Radiology | The Breast Center at University of MD St. Joseph Medical Center Bldg A in Towson, Maryland offers 3D mammography, ultrasound and DEXA." />
+url: (https://www.radnet.com/advanced-radiology/locations/breast-center-maryland-st-joseph-medical)
+htmlHead:    <meta name="description" content="Advanced Radiology | The Breast Center at University of MD St. Joseph Medical Center Bldg A in Towson, Maryland offers 3D mammography, ultrasound and DEXA." />
 <link rel="canonical" href="https://www.advancedradiology.com/locations/breast-center-maryland-st-joseph-medical" />
 <meta itemprop="name" content="Advanced Radiology | The Breast Center at St. Joseph’s - Towson, Maryland" />
 <meta itemprop="description" content="Advanced Radiology | The Breast Center at University of MD St. Joseph Medical Center Bldg A in Towson, Maryland offers 3D mammography, ultrasound and DEXA." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Advanced Radiology | The Breast Cent
 <meta property="og:image" content="https://www.advancedradiology.com/sites/locator/files/field_location_photo/Breast%20Center.jpg" />
 <meta property="og:description" content="Advanced Radiology | The Breast Center at University of MD St. Joseph Medical Center Bldg A in Towson, Maryland offers 3D mammography, ultrasound and DEXA." />
 <meta property="og:site_name" content="Advanced Radiology" />
-body: <p>
+body:    <p>
 	Advanced Radiology has 30 imaging centers that provide services in Anne Arundel, Baltimore, Carroll, Harford, and Howard counties. All of our physicians are board-certified and skilled in various radiologic specialties. The Breast Center at St. Joseph’s provides the following services: DEXA/Bone Density, Mammography (3D), and Ultrasound.&nbsp;
 </p><p>
 	Advanced Radiology | Breast Center at St Joseph Medical Center has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary, breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -35,7 +35,7 @@ body: <p>
 </p><p>
 	<a href="https://www.umms.org/sjmc/-/media/files/um-sjmc/patients-and-visitors/directions-and-parking/campus-map_es.pdf?upd=20180615161611&amp;la=en&amp;hash=CCD4BFF750F06DCF638092C57F2499E0C9D93B7E" target="_blank">Map of St. Joseph Medical Center Campus - Spanish</a>
 </p>
-appointmentUrl: https://www.advancedradiology.com/for-patients/request-appointment
+appointmentUrl: (https://www.advancedradiology.com/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

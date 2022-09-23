@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Rockville
 postal: 20854
-url: https://www.radnet.com/community-radiology/locations/rockville-imaging-seven-locks
-htmlHead: <meta name="description" content="Community Radiology Associates | Rockville Imaging at Seven Locks offers CT, CTA, MRA, MRI & X-Ray medical imaging exams in Rockville, Maryland." />
+url: (https://www.radnet.com/community-radiology/locations/rockville-imaging-seven-locks)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Rockville Imaging at Seven Locks offers CT, CTA, MRA, MRI & X-Ray medical imaging exams in Rockville, Maryland." />
 
 <meta name="twitter:card" value="Community Radiology Associates | Rockville Imaging at Seven Locks offers CT, CTA, MRA, MRI & X-Ray medical imaging exams in Rockville, Maryland." />
 
@@ -23,7 +23,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Roc
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/rockville-seven-locks.jpg" />
 <meta property="og:description" content="Community Radiology Associates | Rockville Imaging at Seven Locks offers CT, CTA, MRA, MRI & X-Ray medical imaging exams in Rockville, Maryland." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p>
+body:    <p>
 	Community Radiology Associates (CRA) | Rockville Imaging at Seven Locks is one of CRA’s network of outpatient radiology centers located throughout Carroll, Frederick, Montgomery and Prince George’s counties in Maryland.
 </p><p>
 	Our Seven Locks location is exclusively dedicated to offering MRI/MRA and CT/CTA services to patients in the communities of Rockville, Bethesda, Silver Spring, Potomac, Kemp Mill, Colesville, Fairland, Travilah, and more.
@@ -36,7 +36,7 @@ body: <p>
 </p><p>
 	<a href="/locator/sites/locator/files/imce/CRA_Montgomery%20County%20Locations%20Map2.pdf" style="font-family: merriweather; font-size: 16px; line-height: 25px;" target="_blank">Click here for a printable location sheet.</a>
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

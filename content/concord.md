@@ -7,15 +7,15 @@ state: California
 stateAbbreviation: CA
 city: Concord
 postal: 94520
-url: https://www.radnet.com/northern-california/locations/concord
-htmlHead: <meta name="description" content="NorCal Imaging | Concord in Concord CA offers MRI and CT scans including other imaging procedures such as Ultrasound, Mammography, DEXA, X-Ray, Biopsy and Fluoroscopy.">
+url: (https://www.radnet.com/northern-california/locations/concord)
+htmlHead:    <meta name="description" content="NorCal Imaging | Concord in Concord CA offers MRI and CT scans including other imaging procedures such as Ultrasound, Mammography, DEXA, X-Ray, Biopsy and Fluoroscopy.">
 <meta name="geo.region" content="US-CA" />
 <meta name="geo.placename" content="Concord" />
 <meta name="geo.position" content="37.975414;-122.030003" />
 <meta name="ICBM" content="37.975414, -122.030003" />
 
-body: null
-appointmentUrl: null
+body:    null
+appointmentUrl: (null)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

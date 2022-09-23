@@ -6,8 +6,8 @@ state: New York
 stateAbbreviation: NY
 city: Bronx
 postal: 10461
-url: https://www.radnet.com/lhr-acpny/locations/doshi-pelham-bay
-htmlHead: <meta name="description" content="Lenox Hill Radiology | Pelham Bay offers imaging exams (3T MRI, X-ray, Ultrasound, Mammo, etc). Formerly a Doshi Diagnostic center. Bronx, New York." />
+url: (https://www.radnet.com/lhr-acpny/locations/doshi-pelham-bay)
+htmlHead:    <meta name="description" content="Lenox Hill Radiology | Pelham Bay offers imaging exams (3T MRI, X-ray, Ultrasound, Mammo, etc). Formerly a Doshi Diagnostic center. Bronx, New York." />
 <meta name="twitter:card" value="Lenox Hill Radiology | Pelham Bay offers imaging exams (3T MRI, X-ray, Ultrasound, Mammo, etc). Formerly a Doshi Diagnostic center. Bronx, New York." />
 <meta itemprop="name" content="Lenox Hill Radiology | Pelham Bay - Bronx, New York" />
 <meta itemprop="description" content="Lenox Hill Radiology | Pelham Bay offers imaging exams (3T MRI, X-ray, Ultrasound, Mammo, etc). Formerly a Doshi Diagnostic center. Bronx, New York." />
@@ -19,7 +19,7 @@ htmlHead: <meta name="description" content="Lenox Hill Radiology | Pelham Bay of
 <meta property="og:image" content="https://www.radnet.com/lenox-hill-radiology/sites/locator/files/field_location_photo/Pelham%201.jpg" />
 <meta property="og:description" content="Lenox Hill Radiology | Pelham Bay offers imaging exams (3T MRI, X-ray, Ultrasound, Mammo, etc). Formerly a Doshi Diagnostic center. Bronx, New York." />
 <meta property="og:site_name" content="Lenox Hill Radiology" />
-body: <p>
+body:    <p>
 	Pelham Bay, a former Doshi Diagnostic Imaging Center,&nbsp;is now part of the Lenox Hill Radiology network of 25 outpatient radiology centers in the New York metropolitan area.&nbsp;Located in the Bronx, Lenox Hill Radiology | Pelham Bay delivers a full spectrum of medical imaging services including MRI (3T), MRA, CT, digital mammography, ultrasound,&nbsp; digital X-Ray, and DEXA for bone density measurement.
 </p><p>
 	Lenox Hill Radiology | Pelham Bay is located across the street from D.O.C.S. Primary and Specialist Care in the Bronx. Our imaging center is less than a mile away from Jack D. Weiler Hospital, Jacobi Medical Center, and Albert Einstein College of Medicine.
@@ -28,7 +28,7 @@ body: <p>
 </p><p>
 	&nbsp;
 </p>
-appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

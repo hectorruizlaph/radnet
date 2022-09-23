@@ -7,10 +7,10 @@ state: California
 stateAbbreviation: CA
 city: Mission Viejo
 postal: 92692
-url: https://www.radnet.com/orange-county//locations/waveimaging-mission-viejo
-htmlHead: null
-body: null
-appointmentUrl: http://connect.radnet.com/WaveOC
+url: (https://www.radnet.com/orange-county//locations/waveimaging-mission-viejo)
+htmlHead:    null
+body:    null
+appointmentUrl: (http://connect.radnet.com/WaveOC)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

@@ -7,12 +7,12 @@ state: New York
 stateAbbreviation: NY
 city: New York
 postal: 10019 
-url: https://www.radnet.com/lhr-acpny/locations/columbus-circle-imaging
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/lhr-acpny/locations/columbus-circle-imaging)
+htmlHead:    null
+body:    <p>
 	Our Columbus Circle location is on the corner of Broadway and W. 58th St and a two-minute drive from the Columbia University Medical Center. This location offers a wide variety of services including mammography, arthrography, CT, DEXA Bone Density scans and open MRI, among other modalities.
 </p>
-appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

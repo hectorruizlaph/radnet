@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Greenbelt
 postal: 20770
-url: https://www.radnet.com/community-radiology/locations/greenbelt-imaging-center
-htmlHead: <meta name="description" content="Community Radiology Associates | Greenbelt Imaging Center in Maryland offers 3D Mammography, Bone Density, CT, Ultrasound + more exams." />
+url: (https://www.radnet.com/community-radiology/locations/greenbelt-imaging-center)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Greenbelt Imaging Center in Maryland offers 3D Mammography, Bone Density, CT, Ultrasound + more exams." />
 <meta name="twitter:card" value="Community Radiology Associates | Greenbelt Imaging Center in Maryland offers 3D Mammography, Bone Density, CT, Ultrasound + more exams." />
 <meta itemprop="name" content="Community Radiology Associates | Greenbelt Imaging Center" />
 <meta itemprop="description" content="Community Radiology Associates | Greenbelt Imaging Center in Maryland offers 3D Mammography, Bone Density, CT, Ultrasound + more exams." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Gre
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/greenbelt.jpg" />
 <meta property="og:description" content="Community Radiology Associates | Greenbelt Imaging Center in Maryland offers 3D Mammography, Bone Density, CT, Ultrasound, Fluoroscopy + more exams." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p>
+body:    <p>
 	Community Radiology Associates | Greenbelt Imaging Center is part of a network of&nbsp;outpatient radiology centers located throughout Carroll, Frederik, Montgomery and Prince George’s counties in Maryland.&nbsp;
 </p><p>
 	Greenbelt Imaging Center offers CT/CTA, ultrasound, mammography, DEXA for bone density measurement, Biopsy,&nbsp;Vertebral Fracture Assessment (VFA), and X-Ray. We accept walk-ins for X-Ray studies; no appointment is needed.
@@ -35,7 +35,7 @@ body: <p>
 </p><p>
 	<a href="/locator/sites/locator/files/imce/CRA_Greenbelt%20Map_Color%20Coded.pdf" target="_blank">Click here for a printable location sheet.</a>
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

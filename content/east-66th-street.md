@@ -6,8 +6,8 @@ state: New York
 stateAbbreviation: NY
 city: New York
 postal: 10065
-url: https://www.radnet.com/lhr-acpny/locations/east-66th-street
-htmlHead: <meta name="description" content="Lenox Hill Radiology | East 66th Street imaging exams (1.5T MRI, 3D Mammography, Ultrasound) in Manhattan. Formerly Manhattan Diagnostic Radiology." />
+url: (https://www.radnet.com/lhr-acpny/locations/east-66th-street)
+htmlHead:    <meta name="description" content="Lenox Hill Radiology | East 66th Street imaging exams (1.5T MRI, 3D Mammography, Ultrasound) in Manhattan. Formerly Manhattan Diagnostic Radiology." />
 <meta name="twitter:card" value="Lenox Hill Radiology | East 66th Street imaging exams (1.5T MRI, 3D Mammography, Ultrasound) in Manhattan. Formerly Manhattan Diagnostic Radiology." />
 <meta itemprop="name" content="Lenox Hill Radiology | East 66th Street Manhattan" />
 <meta itemprop="description" content="Lenox Hill Radiology | East 66th Street imaging exams (1.5T MRI, 3D Mammography, Ultrasound) in Manhattan. Formerly Manhattan Diagnostic Radiology." />
@@ -19,7 +19,7 @@ htmlHead: <meta name="description" content="Lenox Hill Radiology | East 66th Str
 <meta property="og:image" content="https://www.radnet.com/lenox-hill-radiology/sites/locator/files/field_location_photo/66th%20St.jpg" />
 <meta property="og:description" content="Lenox Hill Radiology | East 66th Street imaging exams (1.5T MRI, 3D Mammography, Ultrasound) in Manhattan. Formerly Manhattan Diagnostic Radiology." />
 <meta property="og:site_name" content="Lenox Hill Radiology" />
-body: <p>
+body:    <p>
 	One of 70+ high quality Lenox Hill Radiology (LHR) imaging centers in the metro region, LHR East 66th Street (formerly Manhattan Diagnostic Radiology), &nbsp;now serves as Lenox Hill Radiology’s Center for Oncologic &amp; Molecular Imaging. This center provides metro New York’s most-comprehensive suite of diagnostic &amp; oncology imaging services, as well as biopsy &amp; interventional services rivalling or exceeding the technology &amp; expertise of many top hospitals in the region.
 </p><p>
 	<strong>Driving &amp; Parking</strong>
@@ -128,7 +128,7 @@ body: <p>
 		</p>
 	</li>
 </ul>
-appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Rockville
 postal: 20850
-url: https://www.radnet.com/community-radiology/locations/rockville-imaging-center
-htmlHead: <meta name="description" content="Community Radiology Associates | Rockville Imaging Center offers 3T MRI (Wide-Open), Mammography, Ultrasound & other exams in Rockville, Maryland." />
+url: (https://www.radnet.com/community-radiology/locations/rockville-imaging-center)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Rockville Imaging Center offers 3T MRI (Wide-Open), Mammography, Ultrasound & other exams in Rockville, Maryland." />
 <meta name="twitter:card" value="Community Radiology Associates | Rockville Imaging Center offers 3T MRI (Wide-Open), Mammography, Ultrasound & other exams in Rockville, Maryland." />
 <meta itemprop="name" content="Community Radiology Associates | Rockville Imaging Center" />
 <meta itemprop="description" content="Community Radiology Associates | Rockville Imaging Center offers 3T MRI (Wide-Open), Mammography, Ultrasound & other exams in Rockville, Maryland." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Roc
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/rockville-imaging-center.jpg" />
 <meta property="og:description" content="Community Radiology Associates | Rockville Imaging Center offers 3T MRI (Wide-Open), Mammography, Ultrasound & other exams in Rockville, Maryland." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p>
+body:    <p>
 	For over 20 years, Rockville Imaging Center has proudly served as one of the leading providers of diagnostic imaging services in Montgomery County. Rockville Imaging center is a part of the Community Radiology Associates network of outpatient imaging centers located throughout Carroll, Frederick, Montgomery and Prince George’s counties in Maryland.
 </p><p>
 	Community Radiology Associates | Rockville Imaging Center is a full-service radiology center offering 3T wide-open MRI for superior image clarity and more room for claustrophobic patients, CT/CTA, mammography, ultrasound, DEXA for bone density measurement, and X-Ray.
@@ -33,7 +33,7 @@ body: <p>
 </p><p>
 	<a href="/locator/sites/locator/files/imce/CRA_Montgomery%20County%20Locations%20Map2.pdf" style="font-family: merriweather; font-size: 16px; line-height: 25px;" target="_blank">Click here for a printable location sheet.</a>
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

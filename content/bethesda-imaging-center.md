@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Bethesda
 postal: 20817
-url: https://www.radnet.com/community-radiology/locations/bethesda-imaging-center
-htmlHead: <meta name="description" content="Community Radiology Associates | Bethesda Imaging Center offers 3D Mammography, Ultrasound, 3T MRI & other medical imaging exams in Bethesda, Maryland." />
+url: (https://www.radnet.com/community-radiology/locations/bethesda-imaging-center)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Bethesda Imaging Center offers 3D Mammography, Ultrasound, 3T MRI & other medical imaging exams in Bethesda, Maryland." />
 
 <meta name="twitter:card" value="Community Radiology Associates | Bethesda Imaging Center offers 3D Mammography, Ultrasound, 3T MRI & other medical imaging exams in Bethesda, Maryland." />
 
@@ -23,7 +23,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Bet
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/CRA-bethesda.png" />
 <meta property="og:description" content="Community Radiology Associates | Bethesda Imaging Center offers 3D Mammography, Ultrasound, MRI & other medical imaging exams in Bethesda, Maryland." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p>
+body:    <p>
 	Community Radiology Associates | Bethesda Imaging Center is part of a network of outpatient radiology centers throughout Carroll, Frederick, Montgomery and Prince George’s counties. Our Bethesda Imaging center is a full-service location that provides a complete range of medical imaging exams and tests. Services include MRI/MRA, CT/CTA, 3D mammography, ultrasound,&nbsp;bone density measurement, calcium scoring, Vertebral Fracture Assessment (VFA), and X-Ray.&nbsp;
 </p><p>
 	Our Bethesda location has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary, breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -40,7 +40,7 @@ body: <p>
 </p><p>
 	<a href="/locator/sites/locator/files/imce/CRA_Montgomery%20County%20Locations%20Map2.pdf" target="_blank">Click here for a printable location sheet.</a>
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

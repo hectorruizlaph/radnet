@@ -7,8 +7,8 @@ state: New York
 stateAbbreviation: NY
 city: New York
 postal: 10016
-url: https://www.radnet.com/lhr-acpny/locations/madison-avenue
-htmlHead: <meta name="description" content="Lenox Hill Radiology | Madison Avenue Medical Imaging (1.5T MRI, 3D Mammography, CT, Ultrasound, X-Ray, Bone Density, etc.) in Manhattan, New York." />
+url: (https://www.radnet.com/lhr-acpny/locations/madison-avenue)
+htmlHead:    <meta name="description" content="Lenox Hill Radiology | Madison Avenue Medical Imaging (1.5T MRI, 3D Mammography, CT, Ultrasound, X-Ray, Bone Density, etc.) in Manhattan, New York." />
 <meta name="twitter:card" value="Lenox Hill Radiology | Madison Avenue Medical Imaging (1.5T MRI, 3D Mammography, CT, Ultrasound, X-Ray, Bone Density, etc.) in Manhattan, New York." />
 <meta itemprop="name" content="Lenox Hill Radiology | Madison Avenue Medical Imaging" />
 <meta itemprop="description" content="Lenox Hill Radiology | Madison Avenue Medical Imaging (1.5T MRI, 3D Mammography, CT, Ultrasound, X-Ray, Bone Density, etc.) in Manhattan, New York." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Lenox Hill Radiology | Madison Avenu
 <meta property="og:image" content="https://www.radnet.com/lenox-hill-radiology/sites/locator/files/field_location_photo/Madison.jpg" />
 <meta property="og:description" content="Lenox Hill Radiology | Madison Avenue Medical Imaging (1.5T MRI, 3D Mammography, CT, Ultrasound, X-Ray, Bone Density, etc.) in Manhattan, New York." />
 <meta property="og:site_name" content="Lenox Hill Radiology" />
-body: <p>
+body:    <p>
 	Lenox Hill Radiology | Madison Avenue Medical Imaging is one of Lenox Hill Radiology’s (LHR) convenient 25 outpatient imaging centers located in the metropolitan New York area. Our Madison Avenue location offers a complete range of imaging services including MRI (1.5T), CT, digital &amp; 3D mammography, biopsy, ultrasound, fluoroscopy, calcium scoring, X-Ray, and DEXA for bone density measurement.
 </p><p>
 	Madison Avenue Medical Imaging offers 3D mammography, the latest technology in breast cancer screening. Studies show that 3D mammography detects 40% invasive cancers than traditional mammography alone. So when it’s time for your annual mammogram, trust our women’s imaging experts to bring you the very best.
@@ -31,7 +31,7 @@ body: <p>
 </p><p>
 	To learn more about the imaging services Lenox Hill offers, as well as our convenient hours, please call us today.
 </p>
-appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

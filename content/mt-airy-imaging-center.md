@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city:  Mt. Airy
 postal: 21771
-url: https://www.radnet.com/community-radiology/locations/mt-airy-imaging-center
-htmlHead: <meta name="description" content="Community Radiology Associates | Mt. Airy Imaging Center in Mt. Airy, Maryland offers 1.2T Open MRI, 3D Mammography and other medical imaging exams." />
+url: (https://www.radnet.com/community-radiology/locations/mt-airy-imaging-center)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Mt. Airy Imaging Center in Mt. Airy, Maryland offers 1.2T Open MRI, 3D Mammography and other medical imaging exams." />
 
 <meta name="twitter:card" value="Community Radiology Associates | Mt. Airy Imaging Center in Mt. Airy, Maryland offers 1.2T Open MRI, 3D Mammography and other medical imaging exams." />
 
@@ -23,7 +23,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Mt.
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/BEST-3-Mt-Airy-web.jpg" />
 <meta property="og:description" content="Community Radiology Associates | Mt. Airy Imaging Center in Mt. Airy, Maryland offers 1.2T Open MRI, 3D Mammography and other medical imaging exams." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p>
+body:    <p>
 	Community Radiology Associates | Mt. Airy Imaging Center is part of a network of outpatient radiology centers located throughout Carroll, Frederick, Montgomery, and Prince George’s counties in Maryland.&nbsp;
 </p><p>
 	Mt. Airy Imaging Center is conveniently located in the Mt. Airy Health &amp; Wellness Pavilion in Carroll County. The center offers a full array of radiology services including open MRI/MRA, which is great option for claustrophobic and larger sized patients, CT/CTA, 3D mammography, ultrasound, bone density measurement, and X-Ray.
@@ -34,7 +34,7 @@ body: <p>
 </p><p>
 	At Community Radiology Associates | Mt. Airy Imaging Center, &nbsp;our dedicated specialty physicians, friendly compassionate staff and cutting edge technology allow us to offer our patients only the very best in diagnosis, management, follow up and care.&nbsp;Please call us to find out more about our imaging services and the convenient appointments we offer to patients.
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

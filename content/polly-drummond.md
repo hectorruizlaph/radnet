@@ -7,9 +7,9 @@ state: Delaware
 stateAbbreviation: DE
 city: Newark
 postal: 19711
-url: https://www.radnet.com/delaware-imaging-network/locations/polly-drummond
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/delaware-imaging-network/locations/polly-drummond)
+htmlHead:    null
+body:    <p>
 	Delaware Imaging Network (DIN) | Polly Drummond&nbsp;is situated directly across the street from The Goddard School and is a ten-minute drive from Christiana Hospital. At this center, we offer services including Arthrography, CT, DEXA (for bone density), 3D Mammography, Fast Breast MRI, Fluoroscopy, 1.5 T Wide-Open MRI,&nbsp;Ultrasound, and walk-in X-Ray.
 </p><p>
 	DIN | Polly Drummond has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary&nbsp;breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -18,7 +18,7 @@ body: <p>
 </p><p>
 	Since 1958, Delaware Imaging Network has provided the state with radiology services in a caring and comfortable environment. Currently, DIN has multiple centers across the state.
 </p>
-appointmentUrl: https://www.radnet.com/delaware-imaging-network/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/delaware-imaging-network/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

@@ -6,9 +6,9 @@ state: New York
 stateAbbreviation: NY
 city: New City
 postal: 10956
-url: https://www.radnet.com/lhr-acpny/locations/mid-rockland-imaging
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/lhr-acpny/locations/mid-rockland-imaging)
+htmlHead:    null
+body:    <p>
 	For over 40 years, Hudson Valley Radiology Associates (HVRA), a Lenox Hill Radiology affiliate, has provided Rockland and Westchester County with the most advanced&nbsp;and comprehensive imaging services. HVRA&nbsp;has set the region's gold standard of the highest level of patient care, compassion, and diagnostic accuracy.&nbsp;
 </p><p>
 	HVRA | Mid Rockland Imaging is located just a short drive from the I-87 Palisades Parkway interchange at 18 Squardron Boulevard, in New City. Our full-service imaging center&nbsp;offers a variety of services including MRI, Prostate MRI, CT, Nuclear Medicine, 3D Mammography, Ultrasound, DEXA (bone density), Fluoroscopy, Lung Screening (LDCT), Arthrography, Virtual Colonoscopy, and walk-in X-Ray.
@@ -17,7 +17,7 @@ body: <p>
 </p><p>
 	At HVRA | Mid Rockland Imaging, you can save money without sacrificing quality. Our patient-friendly center offers high-quality imaging at a lower cost, especially compared to expensive hospital-owned imaging centers.
 </p>
-appointmentUrl: https://www.radnet.com/hudson-valley-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/hudson-valley-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

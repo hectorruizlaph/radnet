@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Bowie
 postal: 20716
-url: https://www.radnet.com/community-radiology/locations/bowie-radiology-services
-htmlHead: <meta name="description" content="Community Radiology Associates | Bowie Radiology Services offers 1.5T MRI (Wide-Open), 3D Mammography, 4D Ultrasound + more in Bowie, Maryland." />
+url: (https://www.radnet.com/community-radiology/locations/bowie-radiology-services)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Bowie Radiology Services offers 1.5T MRI (Wide-Open), 3D Mammography, 4D Ultrasound + more in Bowie, Maryland." />
 <meta name="twitter:card" value="Community Radiology Associates | Bowie Radiology Services offers 1.5T MRI (Wide-Open), 3D Mammography, 4D Ultrasound + more in Bowie, Maryland." />
 <meta itemprop="name" content="Community Radiology Associates | Bowie Radiology Services" />
 <meta itemprop="description" content="Community Radiology Associates | Bowie Radiology Services offers 1.5T MRI (Wide-Open), 3D Mammography, 4D Ultrasound + more in Bowie, Maryland." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Bow
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/CRA-bowie.png" />
 <meta property="og:description" content="Community Radiology Associates | Bowie Radiology Services offers 1.5T MRI (Wide-Open), 3D Mammography, 4D Ultrasound + more in Bowie, Maryland." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p>
+body:    <p>
 	Community Radiology Associates (CRA) | Bowie Radiology Services is part of the CRA network of outpatient radiology centers in Carroll, Frederick, Montgomery and Prince George’s counties in Maryland.
 </p><p>
 	Community Radiology Associates offers a complete array of diagnostic imaging exams including 1.5T MRI/MRA with a wide-open design to accommodate claustrophobic and larger sized patients, CT/CTA, ultrasound, mammography, ultrasound, fluoroscopy, DEXA for bone density measurement and digital X-Ray. Patients needing an immediate X-Ray are welcome to come in on a walk-in basis; no appointment is needed.
@@ -37,7 +37,7 @@ body: <p>
 </p><p>
 	<a href="/locator/sites/locator/files/imce/CRA_Bowie%20Directions.pdf" target="_blank">Click here for a printable location sheet.</a>
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

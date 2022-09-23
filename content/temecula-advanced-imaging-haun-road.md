@@ -6,10 +6,10 @@ state: California
 stateAbbreviation: CA
 city: Menifee
 postal: 92586
-url: https://www.radnet.com/temecula-valley//locations/temecula-advanced-imaging-haun-road
-htmlHead: null
-body: null
-appointmentUrl: http://connect.radnet.com/TVIPP
+url: (https://www.radnet.com/temecula-valley//locations/temecula-advanced-imaging-haun-road)
+htmlHead:    null
+body:    null
+appointmentUrl: (http://connect.radnet.com/TVIPP)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

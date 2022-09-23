@@ -6,10 +6,10 @@ state: California
 stateAbbreviation: CA
 city: Rancho Cucamonga
 postal: 91730
-url: https://www.radnet.com/inland-empire//locations/grove-advanced-imaging-open-mri
-htmlHead: null
-body: null
-appointmentUrl: http://connect.radnet.com/RVSPP
+url: (https://www.radnet.com/inland-empire//locations/grove-advanced-imaging-open-mri)
+htmlHead:    null
+body:    null
+appointmentUrl: (http://connect.radnet.com/RVSPP)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

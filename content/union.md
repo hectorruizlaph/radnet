@@ -6,9 +6,9 @@ state: New Jersey
 stateAbbreviation: NJ
 city: Union
 postal: 07083
-url: https://www.radnet.com/new-jersey-imaging-network//locations/union
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/new-jersey-imaging-network//locations/union)
+htmlHead:    null
+body:    <p>
 	New Jersey Imaging Network | Union, formerly known as Union Imaging Center, provides medical imaging services to patients and their doctors&nbsp;in Union County. NJIN of Union is a member of the New Jersey Imaging Network (NJIN), a joint partnership between Barnabas Health and RadNet.
 </p><p>
 	NJIN | Union&nbsp;has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary, breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -17,7 +17,7 @@ body: <p>
 </p><p>
 	NJIN of Union is conveniently located on Chestnut St. between Lincoln Ave. and Washington Ave. Our radiology center offers a range of medical imaging services, including high-field open MRI, MRI, CT, ultrasound, nuclear medicine, fluoroscopy, digital X-ray and arthrogram radiology studies. Please contact our center to learn more about our radiology practice, hours or subspecialty experience.
 </p>
-appointmentUrl: https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

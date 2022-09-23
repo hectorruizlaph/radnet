@@ -7,10 +7,10 @@ state: New Jersey
 stateAbbreviation: NJ
 city: Cherry Hill
 postal: 08003
-url: https://www.radnet.com/new-jersey-imaging-network//locations/cherry-hill
-htmlHead: null
-body: null
-appointmentUrl: https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment
+url: (https://www.radnet.com/new-jersey-imaging-network//locations/cherry-hill)
+htmlHead:    null
+body:    null
+appointmentUrl: (https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

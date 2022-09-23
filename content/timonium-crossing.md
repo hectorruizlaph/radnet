@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Timonium
 postal: 21093
-url: https://www.radnet.com/advanced-radiology/locations/timonium-crossing
-htmlHead: <meta name="description" content="Advanced Radiology | Timonium Crossing in Timonium, Maryland offers 3D mammography, 3T MRI (Wide-Open), PET/CT, ultrasound & other medical imaging exams." />
+url: (https://www.radnet.com/advanced-radiology/locations/timonium-crossing)
+htmlHead:    <meta name="description" content="Advanced Radiology | Timonium Crossing in Timonium, Maryland offers 3D mammography, 3T MRI (Wide-Open), PET/CT, ultrasound & other medical imaging exams." />
 <link rel="canonical" href="https://www.advancedradiology.com/locations/timonium-crossing" />
 <meta itemprop="name" content="Advanced Radiology | Timonium Crossing - Timonium, Maryland" />
 <meta itemprop="description" content="Advanced Radiology | Timonium Crossing in Timonium, Maryland offers 3D mammography, 3T MRI (Wide-Open), PET/CT, ultrasound & other medical imaging exams." />
@@ -22,7 +22,7 @@ htmlHead: <meta name="description" content="Advanced Radiology | Timonium Crossi
 <meta property="og:description" content="Advanced Radiology | Timonium Crossing in Timonium, Maryland offers 3D mammography, 3T MRI (Wide-Open), PET/CT, ultrasound & other medical imaging exams." />
 <meta property="og:site_name" content="Advanced Radiology" />
 
-body: <p>
+body:    <p>
 	Advanced Radiology | Timonium Crossing&nbsp;is located in the Timonium Crossing Shopping Center at the intersection of York Road and East Timonium Road - near the Timonium Fairgrounds. This center offers PET/CT, MRI (3T Wide-Open), 3D Mammography, CT, Ultrasound, Nuclear Medicine and X-ray, among other modalities.
 </p><p>
 	Advanced Radiology | Timonium Crossing has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary, breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -31,7 +31,7 @@ body: <p>
 </p><p>
 	For over 20 years, Advanced Radiology has been providing imaging services to patients in Anne Arundel, Baltimore, Carroll, Harford, and Howard counties.
 </p>
-appointmentUrl: https://www.advancedradiology.com/for-patients/request-appointment
+appointmentUrl: (https://www.advancedradiology.com/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

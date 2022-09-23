@@ -6,9 +6,9 @@ state: New Jersey
 stateAbbreviation: NJ
 city: Toms River
 postal: 08755
-url: https://www.radnet.com/new-jersey-imaging-network//locations/toms-river-west-womens-imaging
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/new-jersey-imaging-network//locations/toms-river-west-womens-imaging)
+htmlHead:    null
+body:    <p>
 	New Jersey Imaging Network | Toms River - West &amp; Women’s Imaging, formerly known as Ocean Medical Imaging Women’s Center, helps Ocean County women with their women’s imaging needs. NJIN of Toms River – West &amp; Women’s Imaging is a member of the New Jersey Imaging Network (NJIN). NJIN is a joint partnership between Barnabas Health and RadNet.
 </p><p>
 	NJIN | Toms River - Women's Imaging&nbsp;has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary, breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -17,7 +17,7 @@ body: <p>
 </p><p>
 	NJIN of Toms River | West &amp; Women’s Imaging is conveniently located on the intersection of Mule Rd. and 37. Our women’s imaging center offers breast ultrasound, digital mammography, and DEXA (bone density)&nbsp;radiology studies. Please contact our center to learn more about our hours, subspecialty experience or women’s imaging practice.
 </p>
-appointmentUrl: https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

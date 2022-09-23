@@ -6,9 +6,9 @@ state: New Jersey
 stateAbbreviation: NJ
 city: Edison
 postal: 08837
-url: https://www.radnet.com/new-jersey-imaging-network//locations/menlo-park
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/new-jersey-imaging-network//locations/menlo-park)
+htmlHead:    null
+body:    <p>
 	New Jersey Imaging Network |&nbsp;Menlo Park, formerly known as Diagnostic Radiology Associates of Menlo Park (DRA of Menlo Park), provides medical imaging services to patients and their medical providers in Middlesex County. NJIN of Menlo Park is a member of the New Jersey Imaging Network (NJIN), a joint partnership between Barnabas Health and RadNet.
 </p><p>
 	NJIN | Menlo Park has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary, breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -17,7 +17,7 @@ body: <p>
 </p><p>
 	NJIN of Menlo Park is conveniently located off of Parsonage Rd., between Mason St. and N. Lafayette Ave. Our radiology center offers high-field open MRI medical imaging studies. Please contact our center for our hours or to learn more about our medical practice.
 </p>
-appointmentUrl: https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

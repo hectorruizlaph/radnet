@@ -7,10 +7,10 @@ state: California
 stateAbbreviation: CA
 city: Bakersfield
 postal: 93311
-url: https://www.radnet.com/kern-radiology//locations/kern-radiology-riverwalk
-htmlHead: null
-body: null
-appointmentUrl: http://connect.radnet.com/KernPP
+url: (https://www.radnet.com/kern-radiology//locations/kern-radiology-riverwalk)
+htmlHead:    null
+body:    null
+appointmentUrl: (http://connect.radnet.com/KernPP)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

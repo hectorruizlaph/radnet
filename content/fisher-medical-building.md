@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Westminster
 postal: 21157
-url: https://www.radnet.com/advanced-radiology/locations/fisher-medical-building
-htmlHead: <meta name="description" content="Advanced Radiology | Fisher Medical Building in Westminster, Maryland offers 1.5T MRI (Wide-Open), 3D Mammography, PET/CT, Ultrasound & exams." />
+url: (https://www.radnet.com/advanced-radiology/locations/fisher-medical-building)
+htmlHead:    <meta name="description" content="Advanced Radiology | Fisher Medical Building in Westminster, Maryland offers 1.5T MRI (Wide-Open), 3D Mammography, PET/CT, Ultrasound & exams." />
 <link rel="canonical" href="https://www.advancedradiology.com/locations/fisher-medical-building" />
 <meta itemprop="name" content="Advanced Radiology | Fisher Medical Building - Westminster, Maryland" />
 <meta itemprop="description" content="Advanced Radiology | Fisher Medical Building in Westminster, Maryland offers 1.5T MRI (Wide-Open), 3D Mammography, PET/CT, Ultrasound & exams." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Advanced Radiology | Fisher Medical 
 <meta property="og:image" content="https://www.advancedradiology.com/sites/locator/files/field_location_photo/Fisher2.JPG" />
 <meta property="og:description" content="Advanced Radiology | Fisher Medical Building in Westminster, Maryland offers 1.5T MRI (Wide-Open), 3D Mammography, PET/CT, Ultrasound & exams." />
 <meta property="og:site_name" content="Advanced Radiology" />
-body: <p>
+body:    <p>
 	For over 20 years, Advanced Radiology has been providing imaging services to patients in Anne Arundel, Baltimore, Carroll, Harford, and Howard counties. The Fisher Medical Building imaging center provides the following services: CT, Calcium Scoring, DEXA/Bone Density, Fluoroscopy, MRA, MRI (1.5 T Wide-Open), MRI (1.5T), Mammography, Mammography (3D), Nuclear Medicine, PET/CT, Ultrasound and X-Ray. All of our physicians are board-certified and skilled in various radiologic specialties.
 </p><p>
 	Advanced Radiology | Fisher Medical Building has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary, breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -31,7 +31,7 @@ body: <p>
 </p><p>
 	We pride ourselves on accommodating the busy schedules of our patients by offering morning, afternoon and weekend hours. If you or your family encounters an unexpected injury or illness, we accept walk-ins. We now offer a variety of appointment scheduling options for your convenience. To schedule an appointment you can go online, send a request or give us a call.
 </p>
-appointmentUrl: https://www.advancedradiology.com/for-patients/request-appointment
+appointmentUrl: (https://www.advancedradiology.com/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

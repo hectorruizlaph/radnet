@@ -3,31 +3,43 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 import * as styles from "../styles/styles.module.css"
 
 const query = graphql`
-  query MyQuery {
-    allMarkdownRemark {
+  query {
+    allPlaces {
       nodes {
-        frontmatter {
-          title
-        }
-        fields {
-          slug
-        }
+        alias
+        name
+        city
+        id
+        postal
       }
     }
   }
 `
 
+// query MyQuery {
+//   allMarkdownRemark {
+//     nodes {
+//       frontmatter {
+//         title
+//       }
+//       fields {
+//         slug
+//       }
+//     }
+//   }
+// }
+
 const PostList = () => {
   const data = useStaticQuery(query)
-  const nodes = data.allMarkdownRemark.nodes
+  const nodes = data.allPlaces.nodes
 
   return (
     <div className={styles.listContainer}>
       <Link to="/">
-      <div className={styles.allLocations}>
-        <img src="/logo.png" alt="radnet logo" />
-        <p>See All Locations</p>
-      </div>
+        <div className={styles.allLocations}>
+          <img src="/logo.png" alt="radnet logo" />
+          <p>See All Locations</p>
+        </div>
       </Link>
       <div>
         <ul
@@ -37,15 +49,18 @@ const PostList = () => {
           }}
         >
           {nodes.map(node => {
-            const title = node.frontmatter.title
+            const name = node.name
             return (
               <Link
-                to={node.fields.slug}
+                to={`/${node.alias}`}
                 className={styles.listItems}
                 activeClassName={styles.active}
               >
-                <li key={title} className={styles.listItemsText}>
-                  {title}
+                <li key={node.id} className={styles.listItemsText}>
+                  <h3>{name}</h3>
+                  <p>
+                    {node.postal} - {node.city}
+                  </p>
                 </li>
               </Link>
             )

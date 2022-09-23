@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Glen Burnie
 postal: 21061
-url: https://www.radnet.com/advanced-radiology/locations/pet-center-baltimore-washington-medical
-htmlHead: <meta name="description" content="Advanced Radiology | The PET Center at Baltimore Washington Medical Center in Glen Burnie, Maryland offers patients and referring doctors PET/CT exams." />
+url: (https://www.radnet.com/advanced-radiology/locations/pet-center-baltimore-washington-medical)
+htmlHead:    <meta name="description" content="Advanced Radiology | The PET Center at Baltimore Washington Medical Center in Glen Burnie, Maryland offers patients and referring doctors PET/CT exams." />
 <link rel="canonical" href="https://www.advancedradiology.com/locations/pet-center-baltimore-washington-medical" />
 <meta itemprop="name" content="Advanced Radiology | The PET Center at Baltimore Washington Medical Center" />
 <meta itemprop="description" content="Advanced Radiology | The PET Center at Baltimore Washington Medical Center in Glen Burnie, Maryland offers patients and referring doctors PET/CT exams." />
@@ -21,8 +21,8 @@ htmlHead: <meta name="description" content="Advanced Radiology | The PET Center 
 <meta property="og:description" content="Advanced Radiology | The PET Center at Baltimore Washington Medical Center in Glen Burnie, Maryland offers patients and referring doctors PET/CT exams." />
 <meta property="og:site_name" content="Advanced Radiology" />
 
-body: null
-appointmentUrl: https://www.advancedradiology.com/for-patients/request-appointment
+body:    null
+appointmentUrl: (https://www.advancedradiology.com/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

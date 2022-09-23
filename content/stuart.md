@@ -6,10 +6,10 @@ state: Florida
 stateAbbreviation: FL
 city: Stuart
 postal: 34994
-url: https://www.radnet.com/radiology-imaging-associates/locations/stuart
-htmlHead: null
-body: null
-appointmentUrl: https://www.radnet.com/radiology-imaging-associates/for-patients/request-appointment
+url: (https://www.radnet.com/radiology-imaging-associates/locations/stuart)
+htmlHead:    null
+body:    null
+appointmentUrl: (https://www.radnet.com/radiology-imaging-associates/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

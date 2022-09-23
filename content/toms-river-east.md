@@ -6,9 +6,9 @@ state: New Jersey
 stateAbbreviation: NJ
 city: Toms River
 postal: 08755
-url: https://www.radnet.com/new-jersey-imaging-network//locations/toms-river-east
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/new-jersey-imaging-network//locations/toms-river-east)
+htmlHead:    null
+body:    <p>
 	New Jersey Imaging Network |&nbsp;Toms River - East, formerly known as the Ocean Medical Imaging Center – East, provides medical imaging services to South New Jersey patients and their medical providers in Ocean County. NJIN of Toms River - East is a member of the New Jersey Imaging Network (NJIN), a joint partnership between Barnabas Health and RadNet.
 </p><p>
 	NJIN | Toms River East&nbsp;has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary, breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -17,7 +17,7 @@ body: <p>
 </p><p>
 	NJIN of Toms River - East is conveniently located behind the Barnabas Health Medical Center off of Lakehurst Dr. Our radiology center offers a range of medical imaging services, including MRI, PET/CT, CT, ultrasound and X-ray radiology studies. X-rays are also offered on Saturdays, please call for availability. Please contact our center to learn more about our radiology practice, hours or subspecialty experience.
 </p>
-appointmentUrl: https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

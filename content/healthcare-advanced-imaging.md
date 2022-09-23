@@ -7,11 +7,11 @@ state: California
 stateAbbreviation: CA
 city: Riverside
 postal: 92501
-url: https://www.radnet.com/inland-empire//locations/healthcare-advanced-imaging
-htmlHead: <meta name="description" content="RadNet Inland Empire | Healthcare Advanced Imaging offers MRI and X-Ray scans including other imaging procedures such as PET/CT, Ultrasound and Nuclear Medicine.">
+url: (https://www.radnet.com/inland-empire//locations/healthcare-advanced-imaging)
+htmlHead:    <meta name="description" content="RadNet Inland Empire | Healthcare Advanced Imaging offers MRI and X-Ray scans including other imaging procedures such as PET/CT, Ultrasound and Nuclear Medicine.">
 
-body: null
-appointmentUrl: http://connect.radnet.com/RVSPP
+body:    null
+appointmentUrl: (http://connect.radnet.com/RVSPP)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

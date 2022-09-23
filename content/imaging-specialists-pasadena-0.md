@@ -7,15 +7,15 @@ state: California
 stateAbbreviation: CA
 city: Pasadena
 postal: 91105
-url: /san-gabriel-valley/locations/imaging-specialists-pasadena-0
-htmlHead: <meta name="description" content="RadNet San Gabriel Valley - Imaging Specialists of Pasadena in CA offers MRI and PET/CT scans including other imaging procedures such as Fluoroscopy, Ultrasound and X-Ray.">
+url: (/san-gabriel-valley/locations/imaging-specialists-pasadena-0)
+htmlHead:    <meta name="description" content="RadNet San Gabriel Valley - Imaging Specialists of Pasadena in CA offers MRI and PET/CT scans including other imaging procedures such as Fluoroscopy, Ultrasound and X-Ray.">
 <meta name="geo.region" content="US-CA" />
 <meta name="geo.placename" content="Pasadena" />
 <meta name="geo.position" content="34.13509;-118.14868" />
 <meta name="ICBM" content="34.13509, -118.14868" />
 
-body: null
-appointmentUrl: http://connect.radnet.com/SGVPP
+body:    null
+appointmentUrl: (http://connect.radnet.com/SGVPP)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

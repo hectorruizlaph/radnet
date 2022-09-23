@@ -8,10 +8,10 @@ state: California
 stateAbbreviation: CA
 city: Palm Desert
 postal: 92260
-url: https://www.radnet.com/coachella-valley/locations/coachella-valley-imaging-open-mri
-htmlHead: null
-body: null
-appointmentUrl: http://connect.radnet.com/CVI
+url: (https://www.radnet.com/coachella-valley/locations/coachella-valley-imaging-open-mri)
+htmlHead:    null
+body:    null
+appointmentUrl: (http://connect.radnet.com/CVI)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

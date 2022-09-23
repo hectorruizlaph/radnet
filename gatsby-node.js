@@ -51,7 +51,7 @@ exports.sourceNodes = async ({ actions, createNodeId, createContentDigest }) => 
   const json = await response.json();
   const matched = json.matched;
 
-  const matchedPlaces = matched.map(places => { 
+  const matchedPlaces = matched.map(places => {
     return places
   });
   matchedPlaces.forEach((node, index) => {

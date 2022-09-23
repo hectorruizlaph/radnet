@@ -6,9 +6,9 @@ state: New York
 stateAbbreviation: NY
 city: Yonkers
 postal: 10701
-url: https://www.radnet.com/lhr-acpny/locations/yonkers
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/lhr-acpny/locations/yonkers)
+htmlHead:    null
+body:    <p>
 	One of 70+ high quality Lenox Hill Radiology (LHR) imaging centers in the metro region, LHR | Yonkers (formerly Hudson Valley Radiology Associates an affiliate of Lenox Hill Radiology), now serves as Lenox Hill Radiology’s Yonkers imaging center.
 </p><p>
 	Our newly constructed (2020) outpatient imaging center provides Yonkers and Westchester County’s most-comprehensive suite of diagnostic imaging &amp; screening imaging services; rivalling or exceeding the technology &amp; expertise of many top hospitals in the region.
@@ -27,7 +27,7 @@ body: <p>
 </p><p>
 	Lenox Hill Radiology is committed to providing a full spectrum of leading-edge diagnostic imaging services in a caring and comfortable environment. You can count on Lenox Hill Radiology to provide exceptional service and timely and accurate imaging reports. Please <a href="https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment" target="_blank">contact us</a>&nbsp;to schedule your imaging exam, learn about us and our subspecialty imaging experience.
 </p>
-appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

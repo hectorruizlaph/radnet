@@ -6,9 +6,9 @@ state: New York
 stateAbbreviation: NY
 city: Brooklyn
 postal: 11201
-url: https://www.radnet.com/lhr-acpny/locations/cobble-hill
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/lhr-acpny/locations/cobble-hill)
+htmlHead:    null
+body:    <p>
 	Lenox Hill Radiology (LHR) | Cobble Hill is&nbsp;part of LHR’s network of outpatient radiology centers located throughout the New York metropolitan area. Our goal is to provide leading-edge&nbsp;imaging services paired with the most accurate diagnosis and personalized patient care.
 </p><p>
 	The facility at LHR | Cobble Hill is a beautiful, spacious, and recently expanded full-service medical imaging center.&nbsp;We offer a complete range of imaging services including MRI, CT, 3D Mammography, Ultrasound, DEXA (for bone density measurement), and walk-in digital X-Ray.
@@ -21,7 +21,7 @@ body: <p>
 </p><p>
 	*<a href="https://pubs.rsna.org/doi/10.1148/radiol.12121373" target="_blank">Reference</a>
 </p>
-appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

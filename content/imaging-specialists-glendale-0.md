@@ -7,14 +7,14 @@ state: California
 stateAbbreviation: CA
 city: Glendale
 postal: 91203
-url: /san-gabriel-valley/locations/imaging-specialists-glendale-0
-htmlHead: <meta name="description" content="RadNet San Gabriel Valley - Imaging Specialists of Glendale in CA offers MRI and CT scans including other imaging procedures such as X-Ray, Fluoroscopy, Ultrasound, Arthrography, Vascular Ultrasound, MRA and CTA.">
+url: (/san-gabriel-valley/locations/imaging-specialists-glendale-0)
+htmlHead:    <meta name="description" content="RadNet San Gabriel Valley - Imaging Specialists of Glendale in CA offers MRI and CT scans including other imaging procedures such as X-Ray, Fluoroscopy, Ultrasound, Arthrography, Vascular Ultrasound, MRA and CTA.">
 <meta name="geo.region" content="US-CA" />
 <meta name="geo.placename" content="Glendale" />
 <meta name="geo.position" content="34.156884;-118.257848" />
 <meta name="ICBM" content="34.156884, -118.257848" />
-body: null
-appointmentUrl: http://connect.radnet.com/SGVPP
+body:    null
+appointmentUrl: (http://connect.radnet.com/SGVPP)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

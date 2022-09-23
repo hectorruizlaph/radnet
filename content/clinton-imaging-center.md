@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Clinton
 postal: 20735
-url: https://www.radnet.com/community-radiology/locations/clinton-imaging-center
-htmlHead: <meta name="description" content="Community Radiology Associates | Clinton Imaging Center in Maryland offers 1.5T MRI (Wide-Open), 3D Mammography, Bone Density, CT, Ultrasound + more." />
+url: (https://www.radnet.com/community-radiology/locations/clinton-imaging-center)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Clinton Imaging Center in Maryland offers 1.5T MRI (Wide-Open), 3D Mammography, Bone Density, CT, Ultrasound + more." />
 <meta name="twitter:card" value="Community Radiology Associates | Clinton Imaging Center in Maryland offers 1.5T MRI (Wide-Open), 3D Mammography, Bone Density, CT, Ultrasound + more." />
 <meta itemprop="name" content="Community Radiology Associates | Clinton Imaging Center" />
 <meta itemprop="description" content="Community Radiology Associates | Clinton Imaging Center in Maryland offers 1.5T MRI (Wide-Open), 3D Mammography, Bone Density, CT, Ultrasound + more." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Cli
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/clinton.jpg" />
 <meta property="og:description" content="Community Radiology Associates | Clinton Imaging Center in Maryland offers 1.5T MRI (Wide-Open), 3D Mammography, Bone Density, CT, Ultrasound + more." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p>
+body:    <p>
 	Clinton Imaging Center is a proud member of Community Radiology Associates’ network of&nbsp;outpatient radiology centers located in Carroll, Frederick, Montgomery, and Prince George’s counties in Maryland.
 </p><p>
 	Community Radiology Associates | Clinton Imaging Center provides a full spectrum of radiology services including MRI/MRA, CT/CTA, ultrasound, mammography, DEXA for bone density measurement,&nbsp;Vertebral Fracture Assessment (VFA), and X-Ray.
@@ -31,7 +31,7 @@ body: <p>
 </p><p>
 	Convenient appointment times and walk-ins for X-rays are available.&nbsp;Please call us today to learn more about how our imaging exams can help diagnose health conditions and injuries to help get you feeling your best again.
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

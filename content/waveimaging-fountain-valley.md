@@ -6,15 +6,15 @@ state: California
 stateAbbreviation: CA
 city: Fountain Valley
 postal: 92708
-url: https://www.radnet.com/orange-county//locations/waveimaging-fountain-valley
-htmlHead: <meta name="description" content="WaveImaging Fountain Valley in CA offers X-Ray and Ultrasound radiology services with board-certified radiologists.">
+url: (https://www.radnet.com/orange-county//locations/waveimaging-fountain-valley)
+htmlHead:    <meta name="description" content="WaveImaging Fountain Valley in CA offers X-Ray and Ultrasound radiology services with board-certified radiologists.">
 <meta name="geo.region" content="US-CA" />
 <meta name="geo.placename" content="Fountain Valley" />
 <meta name="geo.position" content="33.70725;-117.954303" />
 <meta name="ICBM" content="33.70725, -117.954303" />
 
-body: null
-appointmentUrl: http://connect.radnet.com/WaveOC
+body:    null
+appointmentUrl: (http://connect.radnet.com/WaveOC)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

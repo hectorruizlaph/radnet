@@ -7,14 +7,14 @@ state: California
 stateAbbreviation: CA
 city: Rancho Mirage
 postal: 92270
-url: https://www.radnet.com/coachella-valley/locations/rancho-mirage-interventional-radiology-and-imaging-center
-htmlHead: <meta name="description" content="RadNet Coachella Valley - Rancho Mirage Interventional Radiology and Imaging Center in California offers MRI scans including other imaging procedures such as Biopsy, DEXA, Digital Mammography, and Ultrasound.">
+url: (https://www.radnet.com/coachella-valley/locations/rancho-mirage-interventional-radiology-and-imaging-center)
+htmlHead:    <meta name="description" content="RadNet Coachella Valley - Rancho Mirage Interventional Radiology and Imaging Center in California offers MRI scans including other imaging procedures such as Biopsy, DEXA, Digital Mammography, and Ultrasound.">
 <meta name="geo.region" content="US-CA" />
 <meta name="geo.placename" content="Rancho Mirage" />
 <meta name="geo.position" content="33.819238;-116.410037" />
 <meta name="ICBM" content="33.819238, -116.410037" />
-body: null
-appointmentUrl: http://connect.radnet.com/DAIPP
+body:    null
+appointmentUrl: (http://connect.radnet.com/DAIPP)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

@@ -7,11 +7,11 @@ state: Arizona
 stateAbbreviation: AZ
 city: Phoenix
 postal: 85013
-url: https://www.arizonadiagnosticradiology.com/locations/phoenix-osborn
-htmlHead: <meta name="description" content="Arizona Diagnostic Radiology - Phoenix offers MRI and CT scans including other imaging procedures such as DEXA, Mammography, Ultrasound and X-Ray.">
+url: (https://www.arizonadiagnosticradiology.com/locations/phoenix-osborn)
+htmlHead:    <meta name="description" content="Arizona Diagnostic Radiology - Phoenix offers MRI and CT scans including other imaging procedures such as DEXA, Mammography, Ultrasound and X-Ray.">
 <link rel="canonical" href="https://www.arizonadiagnosticradiology.com/locations/phoenix-osborn" />
-body: null
-appointmentUrl: http://connect.azdrg.com
+body:    null
+appointmentUrl: (http://connect.azdrg.com)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

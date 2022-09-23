@@ -7,10 +7,10 @@ state: California
 stateAbbreviation: CA
 city: Loma Linda
 postal: 92354
-url: https://www.radnet.com/inland-empire//locations/loma-linda-open-mri
-htmlHead: null
-body: null
-appointmentUrl: http://connect.radnet.com/RVSPP
+url: (https://www.radnet.com/inland-empire//locations/loma-linda-open-mri)
+htmlHead:    null
+body:    null
+appointmentUrl: (http://connect.radnet.com/RVSPP)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

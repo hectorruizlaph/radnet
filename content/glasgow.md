@@ -7,9 +7,9 @@ state: Delaware
 stateAbbreviation: DE
 city: Newark
 postal: 19702
-url: https://www.radnet.com/delaware-imaging-network/locations/glasgow
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/delaware-imaging-network/locations/glasgow)
+htmlHead:    null
+body:    <p>
 	Delaware Imaging Network (DIN) | Glasgow&nbsp;is located right off of Glasgow Avenue and is a 15-minute drive south of&nbsp;Christiana Hospital. This location is a former subsidiary of Papastavros Associates’ Medical Imaging and provides Newark with radiology services like DEXA (for bone density), CT, MRI, Mammography, Fast Breast MRI, Ultrasound, and walk-in X-Ray.
 </p><p>
 	DIN | Glasgow&nbsp;has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary&nbsp;breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -18,7 +18,7 @@ body: <p>
 </p><p>
 	Since 1958, Delaware Imaging Network has provided the state with radiology services in a caring and comfortable environment. Currently, DIN has multiple centers across the state.
 </p>
-appointmentUrl: https://www.radnet.com/delaware-imaging-network/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/delaware-imaging-network/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

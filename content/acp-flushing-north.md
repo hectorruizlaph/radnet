@@ -6,10 +6,10 @@ state: New York
 stateAbbreviation: NY
 city: Flushing
 postal: 11355
-url: https://www.radnet.com/lhr-acpny/locations/acp-flushing-north
-htmlHead: null
-body: null
-appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
+url: (https://www.radnet.com/lhr-acpny/locations/acp-flushing-north)
+htmlHead:    null
+body:    null
+appointmentUrl: (https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

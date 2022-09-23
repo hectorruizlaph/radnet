@@ -7,8 +7,8 @@ state: New York
 stateAbbreviation: NY
 city: New York
 postal: 10075
-url: https://www.radnet.com/lhr-acpny/locations/east-77th-street
-htmlHead: <meta name="description" content="Lenox Hill Radiology | East 77th Street imaging exams (3T MRI, 1.5T MRI, 3D Mammography, Ultrasound, etc.) in Manhattan's Upper East Side." />
+url: (https://www.radnet.com/lhr-acpny/locations/east-77th-street)
+htmlHead:    <meta name="description" content="Lenox Hill Radiology | East 77th Street imaging exams (3T MRI, 1.5T MRI, 3D Mammography, Ultrasound, etc.) in Manhattan's Upper East Side." />
 <meta name="twitter:card" value="Lenox Hill Radiology | East 77th Street imaging exams (3T MRI, 1.5T MRI, 3D Mammography, Ultrasound, etc.) in Manhattan's Upper East Side." />
 <meta itemprop="name" content="Lenox Hill Radiology | East 77th Street Manhattan" />
 <meta itemprop="description" content="Lenox Hill Radiology | East 77th Street imaging exams (3T MRI, 1.5T MRI, 3D Mammography, Ultrasound, etc.) in Manhattan's Upper East Side." />
@@ -20,7 +20,7 @@ htmlHead: <meta name="description" content="Lenox Hill Radiology | East 77th Str
 <meta property="og:image" content="https://www.radnet.com/lenox-hill-radiology/sites/locator/files/field_location_photo/77th.jpg" />
 <meta property="og:description" content="Lenox Hill Radiology | East 77th Street imaging exams (3T MRI, 1.5T MRI, 3D Mammography, Ultrasound, etc.) in Manhattan's Upper East Side." />
 <meta property="og:site_name" content="Lenox Hill Radiology" />
-body: <p>
+body:    <p>
 	Lenox Hill Radiology (LHR) | East 77<sup>th</sup> Street is part of LHR’s network of 25 outpatient radiology centers located throughout the New York metropolitan area. The East&nbsp; 77<sup>th</sup> Street imaging center, between Madison Avenue and Park Avenue, on the upper east side of Manhattan, is our main location.
 </p><p>
 	Our goal is to provide state-of-the-art imaging services coupled with accurate diagnosis and efficient services. Lenox Hill Radiology at East 77th Street, a full-service medical imaging center, offers a complete range of imaging services including MRI/MRA, CT/CTA, calcium scoring, arthrogram, digital and 3D mammography, biopsy, fluoroscopy, ultrasound, digital X-Ray, and DEXA for bone density measurement. We offer a wide variety of MRI options including&nbsp;Wide-Open 1.5 T Wide-Open MRI, and Wide-Open 3T MRI units for claustrophobic and larger-sized patients. Our new 1.5T and 3T MRI units offer superior image quality for imaging difficult areas like the brain (neurological), small joints, large joints and muscle &nbsp;(musculoskeletal). Also at our East 77th Street location, Lenox Hill Radiology offers high resolution Prostate 3T Wide-Open MRI and MRI-guided Prostate Biopsy.
@@ -31,7 +31,7 @@ body: <p>
 </p><p>
 	If you are traveling by train, take the 6 train to 77<sup>th</sup> Street.&nbsp;By bus from uptown, take the M1, M2, M3, M4 bus to Madison Avenue; from downtown, take the M101, M102, M103 bus to Fifth Avenue.
 </p>
-appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

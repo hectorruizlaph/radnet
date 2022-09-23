@@ -6,9 +6,9 @@ state: Delaware
 stateAbbreviation: DE
 city: Newark
 postal: 19713
-url: https://www.radnet.com/delaware-imaging-network/locations/women’s-imaging-center
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/delaware-imaging-network/locations/women’s-imaging-center)
+htmlHead:    null
+body:    <p>
 	Delaware Imaging Network | Women’s Imaging Center is located in the Omega Professional Center&nbsp;directly off Ogletown Stanton Road heading south and is a five-minute drive from Christiana Hospital. This center offers biopsies, DEXA Bone Density scans, 3D Mammography and Ultrasound.
 </p><p>
 	DIN | Women's Imaging Center&nbsp;has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary, breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -17,7 +17,7 @@ body: <p>
 </p><p>
 	For over 60 years, the Delaware Imaging Network has provided the state with a variety of radiology services. Currently, DIN operates multiple locations statewide.
 </p>
-appointmentUrl: https://www.radnet.com/delaware-imaging-network/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/delaware-imaging-network/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

@@ -6,14 +6,14 @@ state: California
 stateAbbreviation: CA
 city: Huntington Park
 postal: 90255
-url: https://www.radnet.com/los-angeles//locations/huntington-park-advanced-imaging-zoe
-htmlHead: <meta name="description" content="RadNet Los Angeles - Huntington Park Advanced Imaging | Zoe in Huntington Park CA offers X-Ray, Vascular Ultrasound and Ultrasound radiology services with board-certified radiologists.">
+url: (https://www.radnet.com/los-angeles//locations/huntington-park-advanced-imaging-zoe)
+htmlHead:    <meta name="description" content="RadNet Los Angeles - Huntington Park Advanced Imaging | Zoe in Huntington Park CA offers X-Ray, Vascular Ultrasound and Ultrasound radiology services with board-certified radiologists.">
 <meta name="geo.region" content="US-CA" />
 <meta name="geo.placename" content="Huntington Park" />
 <meta name="geo.position" content="33.979353;-118.223023" />
 <meta name="ICBM" content="33.979353, -118.223023" />
-body: null
-appointmentUrl: http://connect.radnet.com/RBHPP
+body:    null
+appointmentUrl: (http://connect.radnet.com/RBHPP)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

@@ -7,8 +7,8 @@ state: Maryland
 stateAbbreviation: MD
 city: Silver Spring
 postal: 20906
-url: https://www.radnet.com/community-radiology/locations/leisure-world-imaging
-htmlHead: <meta name="description" content="Community Radiology Associates | Leisure World Imaging offers Mammography, DEXA (Bone Density Exams), Ultrasound & X-Ray in Silver Spring, Maryland." />
+url: (https://www.radnet.com/community-radiology/locations/leisure-world-imaging)
+htmlHead:    <meta name="description" content="Community Radiology Associates | Leisure World Imaging offers Mammography, DEXA (Bone Density Exams), Ultrasound & X-Ray in Silver Spring, Maryland." />
 
 <meta name="twitter:card" value="Community Radiology Associates | Leisure World Imaging offers Mammography, DEXA (Bone Density Exams), Ultrasound & X-Ray in Silver Spring, Maryland." />
 
@@ -23,7 +23,7 @@ htmlHead: <meta name="description" content="Community Radiology Associates | Lei
 <meta property="og:image" content="https://www.radnet.com/community-radiology/sites/locator/files/field_location_photo/leisure.jpg" />
 <meta property="og:description" content="Community Radiology Associates | Leisure World Imaging offers Mammography, DEXA (Bone Density Exams), Ultrasound & X-Ray in Silver Spring, Maryland." />
 <meta property="og:site_name" content="Community Radiology" />
-body: <p>
+body:    <p>
 	Community Radiology Associates | Leisure World Imaging Center is part of a larger network of outpatient radiology centers located throughout Carroll, Frederick, Montgomery and Prince George’s Counties, Maryland. Located within the private adult community of Leisure World, the center offers ultrasound, mammography, bone density measurement and X-Ray. We welcome walk-ins for X-Ray studies, no appointment is needed.&nbsp;
 </p><p>
 	Our imaging center offers convenient access to patients in Silver Spring and the surrounding communities including Aspen Hill, Cloverly, Rockville, Onley, Rockville, and more.
@@ -34,7 +34,7 @@ body: <p>
 </p><p>
 	<a href="/locator/sites/locator/files/imce/CRA_Montgomery%20County%20Locations%20Map2.pdf" style="font-family: merriweather; font-size: 16px; line-height: 25px;" target="_blank">Click here for a printable location sheet.</a>
 </p>
-appointmentUrl: https://www.radnet.com/community-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/community-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

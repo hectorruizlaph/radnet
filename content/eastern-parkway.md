@@ -6,9 +6,9 @@ state: New York
 stateAbbreviation: NY
 city: Brooklyn
 postal: 11213
-url: https://www.radnet.com/lhr-acpny/locations/eastern-parkway
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/lhr-acpny/locations/eastern-parkway)
+htmlHead:    null
+body:    <p>
 	LHR | Eastern Parkway is one of our newest additions in Brooklyn and LHR’s network of outpatient radiology centers located throughout the New York metropolitan area. Our center is located in the Crown Heights area of Brooklyn, less than 1 mile away from Kingsbrook Jewish Medical Center and Kings County Hospital Center. We are conveniently located on Eastern Parkway, situated between Utica Avenue and Rochester Avenue. If you are traveling by train, you can reach us by taking the 3, 4, or 5 trains to the Utica Avenue station, which is right across the street. If traveling by bus, the B14 and B17 buses stop at the corner of Utica Avenue and Eastern Parkway.
 </p><p>
 	As a full-service medical imaging center, it is our mission to provide leading-edge technology, fast and accurate results, and excellent patient comfort and care. We offer a range of services including 3T MRI, 3D Mammography, CT, DEXA (for bone density), Ultrasound, and walk-in X-Ray.
@@ -19,7 +19,7 @@ body: <p>
 </p><p>
 	*Reference: <a href="https://pubs.rsna.org/doi/10.1148/radiol.12121373" target="_blank">Radiological Society of North America</a>
 </p>
-appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

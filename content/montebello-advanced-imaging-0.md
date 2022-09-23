@@ -6,14 +6,14 @@ state: California
 stateAbbreviation: CA
 city: Montebello
 postal: 90640
-url: /san-gabriel-valley/locations/montebello-advanced-imaging-0
-htmlHead: <meta name="description" content="RadNet San Gabriel Valley - Montebello Advanced Imaging in Montebello CA offers Open MRI and MRA radiology services with board-certified radiologists.">
+url: (/san-gabriel-valley/locations/montebello-advanced-imaging-0)
+htmlHead:    <meta name="description" content="RadNet San Gabriel Valley - Montebello Advanced Imaging in Montebello CA offers Open MRI and MRA radiology services with board-certified radiologists.">
 <meta name="geo.region" content="US-CA" />
 <meta name="geo.placename" content="Montebello" />
 <meta name="geo.position" content="34.020054;-118.119437" />
 <meta name="ICBM" content="34.020054, -118.119437" />
-body: null
-appointmentUrl: http://connect.radnet.com/SGVPP
+body:    null
+appointmentUrl: (http://connect.radnet.com/SGVPP)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:

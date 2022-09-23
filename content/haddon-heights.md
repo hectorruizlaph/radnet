@@ -7,9 +7,9 @@ state: New Jersey
 stateAbbreviation: NJ
 city: Haddon Heights
 postal: 08035
-url: https://www.radnet.com/new-jersey-imaging-network//locations/haddon-heights
-htmlHead: null
-body: <p>
+url: (https://www.radnet.com/new-jersey-imaging-network//locations/haddon-heights)
+htmlHead:    null
+body:    <p>
 	New Jersey Imaging Network |&nbsp;Haddon Heights, formerly known as Heights Imaging Center, provides medical imaging services to South New Jersey patients and their medical team in Camden County. NJIN of Haddon Heights is a member of the New Jersey Imaging Network (NJIN). NJIN is a joint partnership between Barnabas Health and RadNet.
 </p><p>
 	NJIN | Haddon Heights has been designated as a Breast Imaging Center of Excellence by the American College of Radiology (ACR). This status recognizes breast imaging centers that have earned accreditation in all of the College’s voluntary, breast-imaging accreditation programs and modules, in addition to the mandatory Mammography Accreditation Program.
@@ -18,7 +18,7 @@ body: <p>
 </p><p>
 	NJIN of Haddon Heights is conveniently located near the intersection of White Horse Pike and Green St. Our radiology center offers a range of medical imaging services, including 3T Wide-Bore&nbsp;MRI, CT, ultrasound, digital mammography, DEXA (bone density), fluoroscopy and digital X-ray radiology studies. Please contact our center to learn more about our radiology practice, hours or subspecialty experience.
 </p>
-appointmentUrl: https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment
+appointmentUrl: (https://www.radnet.com/new-jersey-imaging-network/for-patients/request-appointment)
 walkInTitle: Walk-In Hours
 walkInDetails: Mon - Fri | 8:00 am - 4:00 pm
 places:
