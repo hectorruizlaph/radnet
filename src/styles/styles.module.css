@@ -67,19 +67,20 @@ a {
     display: flex; 
     flex-direction: column; 
     align-items: center;
+    padding-top: 1rem;
 }
 
-.allLocations > p{
+.allLocations > p {
     font-size: calc(1rem - 6px);
 }
 
-.allLocations > img{
+.allLocations > img {
     width: 6rem;
 }
 
-.allLocations:hover {
+/* .allLocations:hover {
     background-color: rgb(245, 245, 245);
-}
+} */
 
 .listItemsText {
   padding: 0.5rem 0 0.5rem 0.7rem;
@@ -92,6 +93,7 @@ a {
 .listItems {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 .active {
@@ -106,4 +108,26 @@ a {
   border-bottom: 1px solid #8b1d1d;
   border-top: 1px solid #8b1d1d;
   background-color: rgb(245, 245, 245);
+}
+
+.servicesContainer {
+  display: flex; 
+  flex-direction: column; 
+  max-width: 30vw;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.marker {
+  background-image: url('/mapbox-pin.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.checked-item {
+  color:aqua;
+  background-color: aqua;
 }

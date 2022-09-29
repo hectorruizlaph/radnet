@@ -5,14 +5,14 @@ module.exports = {
     description: ``,
     author: `HR`,
   },
-  plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `content`,
-        path: `${__dirname}/content`,
-      },
-    },
-    `gatsby-transformer-remark`,
-  ],
+  // plugins: [
+  //   {
+  //     resolve: `gatsby-source-filesystem`,
+  //     options: {
+  //       name: `content`,
+  //       path: `${__dirname}/content`,
+  //     },
+  //   },
+  //   `gatsby-transformer-remark`,
+  // ],
 }

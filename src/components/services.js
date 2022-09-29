@@ -1,27 +1,26 @@
 import React, { useContext } from "react"
 import { GlobalContext } from "../context/GlobalContext";
+import * as styles from "../styles/styles.module.css"
 
 const ServiceList = () => {
 
-  const { handleCheck, checkedItems, isChecked, services } = useContext(GlobalContext)
+  const { handleCheck, checked, isChecked, services, serviceClassName } = useContext(GlobalContext)
 
   return (
-    <div className="checkList">
+    <div className={styles.servicesContainer}>
       <div className="title">Services</div>
       <div className="list-container">
         {Object.keys(services).map((service, index) => (
           <div key={index}>
             <input value={service} type="checkbox" onChange={handleCheck} />
-            <span className={isChecked(service)}>
+            <span className={isChecked(serviceClassName)}>
               {services[service]} id: {service}
             </span>
           </div>
         ))}
       </div>
       {/* display checked services */}
-      <div
-        style={{ display: "flex", flexDirection: "column", maxWidth: "30vw" }}
-      >{`Services checked are: ${checkedItems}`}</div>
+      {/* <div>{`Services checked: ${checked}`}</div> */}
     </div>
   )
 }

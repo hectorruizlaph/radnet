@@ -1,31 +1,61 @@
-import React, { createContext, useState } from "react"
+import React, { createContext, useEffect, useState } from "react"
+import usePlaces from "../hooks/usePlaces"
 
 export const GlobalContext = createContext()
 
 export const GlobalProvider = ({ children }) => {
-  // State with list of all checked item
+  //retrived info from custom hook
+  const { placesData } = usePlaces()
+
+  let allData = new Array()
+  placesData.map(place=>{
+    allData.push(place)
+  })
+
+  //modify places depending on selected
+  const [updatePlaces, setUpdatePlaces] = useState(allData)
+
+  // State with list of all checked services
   const [checked, setChecked] = useState([])
 
-  // Add/Remove checked item from list
-  const handleCheck = event => {
-    let updatedList = [...checked]
-    if (event.target.checked) {
-      updatedList = [...checked, event.target.value]
-    } else {
-      updatedList.splice(checked.indexOf(event.target.value), 1)
-    }
-    setChecked(updatedList)
+  // State with list of place clicked
+  const [activeCoords, setActiveCoords] = useState({
+    id: 1,
+    coordinates: [-97.665, 39.2993],
+  })
+
+// styles for list item clicked
+// const [selected, setSelected] = useState(false);
+
+
+  const handlePlaceClick = (id, coordinates) => {
+    setActiveCoords({
+      id: id,
+      coordinates: coordinates,
+    })
   }
 
-  // Generate string of checked items
-  const checkedItems = checked.length
-    ? checked.reduce((total, item) => {
-        console.log(total, item)
-        return Array(total + ", " + item)
-      })
-    : ""
 
-  // Return classes based on whether item is checked
+  
+
+  const coordinatesToDisplay = activeCoords.coordinates
+  // console.log("coordinatesToDisplay=> ", coordinatesToDisplay)
+
+  // Add/Remove checked item from list
+  const handleCheck = (event) => {
+    let updatedList = [...checked]
+    if (event.target.checked === true) {
+      updatedList = [...checked, event.target.value]
+    setChecked(updatedList)
+    } else {
+    setChecked(updatedList.filter(e => e !== `${event.target.value}`))
+    }
+    setActiveCoords({
+      id: 0,
+      coordinates: [-97.665, 39.2993],
+    })
+  }
+
   let isChecked = service =>
     checked.includes(service) ? "checked-item" : "not-checked-item"
 
@@ -179,10 +209,91 @@ export const GlobalProvider = ({ children }) => {
     1671: "Ultrasound Thyroid Fine Needle Aspiration",
   }
 
-  const value = { handleCheck, checkedItems, isChecked, services }
+  // const geoJson = {
+  //   features: [],
+  // }
+
+  // updatePlaces.map(place => {
+  //   geoJson.features.push({
+  //     type: "Feature",
+  //     properties: {
+  //       title: place.name,
+  //       id: place.id,
+  //     },
+  //     geometry: {
+  //       coordinates: [Number(place.longitude), Number(place.latitude)],
+  //       type: "Point",
+  //     },
+  //   })
+  // })
+
+  // const geoJson2 = {
+  //   features: [],
+  //   type: "FeatureCollection",
+  // }
+
+  // updatePlaces.map(place => {
+  //   geoJson2.features.push({
+  //     type: "Feature",
+  //     properties: {
+  //       title: place.name,
+  //       id: place.id,
+  //     },
+  //     geometry: {
+  //       coordinates: [Number(place.longitude), Number(place.latitude)],
+  //       type: "Point",
+  //     },
+  //   })
+  // })
+
+  // checked services re-rendering markers
+  useEffect(() => {
+    const newPlaces = []
+
+    if (checked[0] === undefined || checked === '') {
+      setUpdatePlaces(allData)
+      return
+    }
+
+    if (checked.length === 1) {
+      updatePlaces.map( (place, index) => {
+        if (place.service_ids.includes(checked[0])) {
+          newPlaces.push(place)
+        } 
+      })
+      setUpdatePlaces(newPlaces)
+      return
+    }
+
+    updatePlaces.map(place => {
+      checked.map((id, index) => {
+        if (place.service_ids.includes(id)) {
+          newPlaces.push(place)
+        } 
+      })
+      // for (let i = 0; i < place.service_ids.length; i++) {
+      //   console.log("este es i= ", i)
+      //   console.log("individual service is = ", place.service_ids[i])
+      // }
+    })
+    setUpdatePlaces(newPlaces)
+  }, [checked])
+
+  const value = {
+    handleCheck,
+    checked,
+    isChecked,
+    services,
+    updatePlaces,
+    handlePlaceClick,
+    coordinatesToDisplay,
+    // geoJson,
+    placesData
+    // selected,
+    // findCommonElements,
+  }
 
   return (
     <GlobalContext.Provider value={value}>{children}</GlobalContext.Provider>
   )
 }
-

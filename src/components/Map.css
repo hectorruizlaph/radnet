@@ -1,0 +1,29 @@
+.map-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.sidebarStyle {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.marker {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: aqua;
+  z-index: 100 !important; 
+  position: absolute;
+}

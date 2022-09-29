@@ -1,46 +1,18 @@
-import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import React, { useState, useContext } from "react"
+import { GlobalContext } from "../context/GlobalContext";
+
 import * as styles from "../styles/styles.module.css"
 
-const query = graphql`
-  query {
-    allPlaces {
-      nodes {
-        alias
-        name
-        city
-        id
-        postal
-      }
-    }
-  }
-`
-
-// query MyQuery {
-//   allMarkdownRemark {
-//     nodes {
-//       frontmatter {
-//         title
-//       }
-//       fields {
-//         slug
-//       }
-//     }
-//   }
-// }
 
 const PostList = () => {
-  const data = useStaticQuery(query)
-  const nodes = data.allPlaces.nodes
-
+const { placesData, handlePlaceClick, selected } = useContext(GlobalContext)
   return (
     <div className={styles.listContainer}>
-      <Link to="/">
+        {/* The onClick for all locations ---\ */}
         <div className={styles.allLocations}>
           <img src="/logo.png" alt="radnet logo" />
-          <p>See All Locations</p>
+          {/* <p>See All Locations</p> */}
         </div>
-      </Link>
       <div>
         <ul
           style={{
@@ -48,21 +20,22 @@ const PostList = () => {
             padding: 0,
           }}
         >
-          {nodes.map(node => {
-            const name = node.name
+          {placesData.map( place => {
+            const name = place.name
             return (
-              <Link
-                to={`/${node.alias}`}
+              <div
+                onClick={() => handlePlaceClick(place.id, place.coordinates)}
                 className={styles.listItems}
-                activeClassName={styles.active}
+                key={place.id}
+                //styles.active
               >
-                <li key={node.id} className={styles.listItemsText}>
+                <li className={styles.listItemsText}>
                   <h3>{name}</h3>
                   <p>
-                    {node.postal} - {node.city}
+                    {place.postal} - {place.city}
                   </p>
                 </li>
-              </Link>
+              </div>
             )
           })}
         </ul>
