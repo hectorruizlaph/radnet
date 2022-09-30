@@ -1,14 +1,15 @@
 import React, { createContext, useEffect, useState } from "react"
 import usePlaces from "../hooks/usePlaces"
+import { MAPBOX_TOKEN } from "../components/map"
 
 export const GlobalContext = createContext()
 
 export const GlobalProvider = ({ children }) => {
   //retrived info from custom hook
   const { placesData } = usePlaces()
-
+  console.log(placesData)
   let allData = new Array()
-  placesData.map(place=>{
+  placesData.map(place => {
     allData.push(place)
   })
 
@@ -21,34 +22,91 @@ export const GlobalProvider = ({ children }) => {
   // State with list of place clicked
   const [activeCoords, setActiveCoords] = useState({
     id: 1,
+    placeClicked: true,
+    cityClicked: false,
+    zipClicked: false,
     coordinates: [-97.665, 39.2993],
   })
 
-// styles for list item clicked
-// const [selected, setSelected] = useState(false);
+  //handle the searchbar
+  const [clickZip, setClickZip] = useState("")
+  const [zipQuery, setZipQuery] = useState("")
+
+  const handleZipClick = zipcode => {
+    setClickZip(zipcode)
+  }
+
+  useEffect(() => {
+    const fetchGeo = (postal, token) => {
+      fetch(
+        `https://api.mapbox.com/geocoding/v5/mapbox.places/${postal}.json?access_token=${token}`
+      )
+        .then(response => response.json())
+        .then(data => {
+          setActiveCoords({
+            id: data.features[0].center[1],
+            placeClicked: false,
+            cityClicked: false,
+            zipClicked: true,
+            coordinates: data.features[0].center,
+          })
+        })
+    }
+    if (clickZip) fetchGeo(clickZip, MAPBOX_TOKEN)
+  }, [clickZip])
 
 
+    //handle the searchbar
+    const [clickCity, setClickCity] = useState("")
+
+    const handleCityClick = city => {
+      allCities.map(item => {
+        if(item.city === city) {
+          setClickCity(item.coordinates)
+        }
+      })
+      // setClickCity(city)
+    }
+  
+    useEffect(() => {
+      const fetchGeo = (city, token) => {
+        fetch(
+          `https://api.mapbox.com/geocoding/v5/mapbox.places/${city}.json?access_token=${token}`
+        )
+          .then(response => response.json())
+          .then(data => {
+            setActiveCoords({
+              id: data.features[0].center[1],
+              placeClicked: false,
+              cityClicked: true,
+              zipClicked: false,
+              coordinates: data.features[0].center,
+            })
+          })
+      }
+      if (clickCity) fetchGeo(clickCity, MAPBOX_TOKEN)
+    }, [clickCity])
+
+
+    
   const handlePlaceClick = (id, coordinates) => {
     setActiveCoords({
       id: id,
+      placeClicked: true,
+      cityClicked: false,
+      zipClicked: false,
       coordinates: coordinates,
     })
   }
 
-
-  
-
-  const coordinatesToDisplay = activeCoords.coordinates
-  // console.log("coordinatesToDisplay=> ", coordinatesToDisplay)
-
   // Add/Remove checked item from list
-  const handleCheck = (event) => {
+  const handleCheck = event => {
     let updatedList = [...checked]
     if (event.target.checked === true) {
       updatedList = [...checked, event.target.value]
-    setChecked(updatedList)
+      setChecked(updatedList)
     } else {
-    setChecked(updatedList.filter(e => e !== `${event.target.value}`))
+      setChecked(updatedList.filter(e => e !== `${event.target.value}`))
     }
     setActiveCoords({
       id: 0,
@@ -250,16 +308,16 @@ export const GlobalProvider = ({ children }) => {
   useEffect(() => {
     const newPlaces = []
 
-    if (checked[0] === undefined || checked === '') {
+    if (checked[0] === undefined || checked === "") {
       setUpdatePlaces(allData)
       return
     }
 
     if (checked.length === 1) {
-      updatePlaces.map( (place, index) => {
+      updatePlaces.map((place, index) => {
         if (place.service_ids.includes(checked[0])) {
           newPlaces.push(place)
-        } 
+        }
       })
       setUpdatePlaces(newPlaces)
       return
@@ -269,7 +327,7 @@ export const GlobalProvider = ({ children }) => {
       checked.map((id, index) => {
         if (place.service_ids.includes(id)) {
           newPlaces.push(place)
-        } 
+        }
       })
       // for (let i = 0; i < place.service_ids.length; i++) {
       //   console.log("este es i= ", i)
@@ -279,6 +337,32 @@ export const GlobalProvider = ({ children }) => {
     setUpdatePlaces(newPlaces)
   }, [checked])
 
+  let allZipcodes = new Array()
+  placesData.map(place => {
+    allZipcodes.push(place.postal)
+  })
+  let uniqueZipcodes = [...new Set(allZipcodes)]
+
+  let allCities = new Array()
+
+  placesData.map(place => {
+      allCities.push({city: `${place.city}`, coordinates: place.coordinates})
+  })
+  console.log(allCities)
+
+  let uniqueCities = [...new Set(allCities.map(item => item.city))]
+  console.log(uniqueCities)
+
+
+  // useEffect(() => {
+  //   // create zip code search
+  //   allZipcodes = []
+  //   placesData.map(place => {
+  //     allZipcodes.push(place.postal)
+  //   })
+  //   console.log("allZipcodes", allZipcodes)
+  // })
+
   const value = {
     handleCheck,
     checked,
@@ -286,9 +370,18 @@ export const GlobalProvider = ({ children }) => {
     services,
     updatePlaces,
     handlePlaceClick,
-    coordinatesToDisplay,
+    activeCoords,
     // geoJson,
-    placesData
+    placesData,
+    uniqueZipcodes,
+    handleZipClick,
+    zipQuery, 
+    setZipQuery,
+    allCities,
+    uniqueCities,
+    handleZipClick,
+    handleCityClick,
+    clickCity,
     // selected,
     // findCommonElements,
   }

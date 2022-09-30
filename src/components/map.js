@@ -6,11 +6,13 @@ import Markers from "./markers"
 import "mapbox-gl/dist/mapbox-gl.css"
 import * as styles from "../styles/styles.module.css"
 import { GlobalContext } from "../context/GlobalContext"
+import SearchBarZipcode from "./SearchBarZipcode"
+import SearchBarCity from "./searchBarCity"
 
 // replace with your own Mapbox token
-const MAPBOX_TOKEN =
+export const MAPBOX_TOKEN =
   "pk.eyJ1IjoiaGVjdG9ybGFwaCIsImEiOiJjazhtYjg5dGMwbHBjM2lxeG40aDBudzJqIn0.NrRc3iTV4ddFu-wx7rBOyw"
-
+  
 const mapContainerStyle = {
   width: "100%",
   height: "100%",
@@ -19,10 +21,13 @@ const mapContainerStyle = {
 const Map = () => {
   const {
     updatePlaces,
-    coordinatesToDisplay,
+    activeCoords,
     geoJson,
     checked,
     handlePlaceClick,
+    handleCityClick,
+    handleZipClick,
+    clickCity,
   } = useContext(GlobalContext)
 
   const mapContainerRef = useRef(null)
@@ -78,24 +83,55 @@ const Map = () => {
   useEffect(() => {
     if (!map) return
 
-    if (coordinatesToDisplay[1] !== 39.2993) {
+    if (activeCoords.placeClicked) {
       console.log("rendering")
-      map.fitBounds([coordinatesToDisplay, coordinatesToDisplay], {
+      map.fitBounds([activeCoords.coordinates, activeCoords.coordinates], {
         zoom: 15,
         duration: 2000,
       })
     }
   }, [handlePlaceClick])
 
+  useEffect(() => {
+    if (!map) return
+
+    if (activeCoords.cityClicked) {
+      console.log("rendering")
+      map.fitBounds([activeCoords.coordinates, activeCoords.coordinates], {
+        zoom: 8,
+        duration: 2000,
+      })
+    }
+  }, [handleCityClick])
+
+  useEffect(() => {
+    if (!map) return
+
+    if (activeCoords.zipClicked) {
+      console.log("rendering")
+      map.fitBounds([activeCoords.coordinates, activeCoords.coordinates], {
+        zoom: 10,
+        duration: 2000,
+      })
+    }
+  }, [handleZipClick])
+
   // console.log('geoJson=> ',geoJson)
 
   return (
-    <div className={styles.mapContainer}>
-      <div ref={mapContainerRef} style={mapContainerStyle}>
-        {updatePlaces && map && <Markers map={map} places={updatePlaces} />}
+    <>
+      <div className={styles.mapContainer}>
+        <div className={styles.searchContainer}>
+      <SearchBarZipcode />
+      <SearchBarCity />
       </div>
-      {/* <div>{checked}</div> */}
-    </div>
+
+        <div ref={mapContainerRef} style={mapContainerStyle}>
+          {updatePlaces && map && <Markers map={map} places={updatePlaces} />}
+        </div>
+        {/* <div>{checked}</div> */}
+      </div>
+    </>
   )
 }
 

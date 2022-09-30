@@ -131,3 +131,47 @@ a {
   color:aqua;
   background-color: aqua;
 }
+
+.searchCity {
+  z-index: 10;
+  position: absolute;
+  top: 1rem;
+  padding-left: 1rem
+}
+
+.searchZip {
+  z-index: 10;
+  position: absolute;
+  top: 1rem;
+  padding-left: 15rem
+}
+
+.searchListCity {
+  max-height: 4rem;
+  overflow-y: scroll;
+}
+
+.searchListZip {
+  max-height: 4rem;
+  overflow-y: scroll;
+}
+
+.city {
+  padding-left: 1rem;
+  cursor: pointer;
+  background-color: rgba(230, 230, 230, 0.445);
+}
+
+.city:hover {
+  background-color: rgba(255, 255, 255, 0.541);
+}
+
+.zipcode {
+  padding-left: 1rem;
+  cursor: pointer;
+  background-color: rgba(230, 230, 230, 0.445);
+}
+
+.zipcode:hover {
+  background-color: rgba(255, 255, 255, 0.541);
+}

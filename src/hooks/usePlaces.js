@@ -16,6 +16,7 @@ export default function usePlaces(){
           postal
           title
           service_ids
+          hours
           state {
             name
           }
@@ -35,7 +36,8 @@ export default function usePlaces(){
       name,
       postal,
       service_ids,
-      title  
+      title,
+      hours
     } = node;
     return {
       id,
@@ -48,7 +50,8 @@ export default function usePlaces(){
       coordinates: [longitude, latitude],
       latitude,
       longitude,
-      service_ids
+      service_ids,
+      hours
     }
   });
   return {
