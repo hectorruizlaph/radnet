@@ -7,7 +7,11 @@ export const GlobalContext = createContext()
 export const GlobalProvider = ({ children }) => {
   //retrived info from custom hook
   const { placesData } = usePlaces()
-  console.log(placesData)
+  placesData.map(item => {
+    for (let number in item.hours) {
+      if (item.hours[number]) console.log( "type: ", number, "value", item.hours[number])
+    }
+  })
   let allData = new Array()
   placesData.map(place => {
     allData.push(place)
@@ -43,13 +47,23 @@ export const GlobalProvider = ({ children }) => {
       )
         .then(response => response.json())
         .then(data => {
-          setActiveCoords({
-            id: data.features[0].center[1],
-            placeClicked: false,
-            cityClicked: false,
-            zipClicked: true,
-            coordinates: data.features[0].center,
+
+          // data.features.map(x => {
+            // if(x.context.text === "United States") {
+          data.features.map(x => {
+            if(x.place_name.includes('United States')) {
+              console.log('iiiiiiiiiiiiiiiiiiiiiiiiiii', x.place_name, x.bbox)
+              setActiveCoords({
+                id: x.bbox[1],
+                placeClicked: false,
+                cityClicked: false,
+                zipClicked: true,
+                coordinates: x.bbox,
+              })
+            }
           })
+            // }
+        // })
         })
     }
     if (clickZip) fetchGeo(clickZip, MAPBOX_TOKEN)
@@ -348,10 +362,8 @@ export const GlobalProvider = ({ children }) => {
   placesData.map(place => {
       allCities.push({city: `${place.city}`, coordinates: place.coordinates})
   })
-  console.log(allCities)
 
   let uniqueCities = [...new Set(allCities.map(item => item.city))]
-  console.log(uniqueCities)
 
 
   // useEffect(() => {
@@ -374,7 +386,6 @@ export const GlobalProvider = ({ children }) => {
     // geoJson,
     placesData,
     uniqueZipcodes,
-    handleZipClick,
     zipQuery, 
     setZipQuery,
     allCities,

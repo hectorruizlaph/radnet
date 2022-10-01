@@ -83,37 +83,42 @@ const Map = () => {
   useEffect(() => {
     if (!map) return
 
-    if (activeCoords.placeClicked) {
+    if (activeCoords.placeClicked === true) {
       console.log("rendering")
       map.fitBounds([activeCoords.coordinates, activeCoords.coordinates], {
         zoom: 15,
         duration: 2000,
       })
     }
+    return
+
   }, [handlePlaceClick])
 
   useEffect(() => {
     if (!map) return
 
-    if (activeCoords.cityClicked) {
+    if (activeCoords.cityClicked === true) {
       console.log("rendering")
       map.fitBounds([activeCoords.coordinates, activeCoords.coordinates], {
-        zoom: 8,
+        zoom: 11,
         duration: 2000,
       })
     }
+    return
+
   }, [handleCityClick])
 
   useEffect(() => {
     if (!map) return
 
-    if (activeCoords.zipClicked) {
+    if (activeCoords.zipClicked === true) {
       console.log("rendering")
-      map.fitBounds([activeCoords.coordinates, activeCoords.coordinates], {
-        zoom: 10,
+      map.fitBounds(activeCoords.coordinates, {
         duration: 2000,
       })
     }
+    return
+
   }, [handleZipClick])
 
   // console.log('geoJson=> ',geoJson)

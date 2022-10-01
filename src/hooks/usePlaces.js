@@ -16,7 +16,36 @@ export default function usePlaces(){
           postal
           title
           service_ids
-          hours
+          hours {
+            _1 {
+              items {
+                details
+                title
+              }
+              title
+            }
+            _2 {
+              items {
+                details
+                title
+              }
+              title
+            }
+            _3 {
+              items {
+                details
+                title
+              }
+              title
+            }
+            _4 {
+              items {
+                details
+                title
+              }
+              title
+            }
+          }
           state {
             name
           }
