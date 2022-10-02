@@ -87,7 +87,7 @@ const Map = () => {
       console.log("rendering")
       map.fitBounds([activeCoords.coordinates, activeCoords.coordinates], {
         zoom: 15,
-        duration: 2000,
+        duration: 4000,
       })
     }
     return
@@ -101,7 +101,7 @@ const Map = () => {
       console.log("rendering")
       map.fitBounds([activeCoords.coordinates, activeCoords.coordinates], {
         zoom: 11,
-        duration: 2000,
+        duration: 4000,
       })
     }
     return
@@ -114,7 +114,7 @@ const Map = () => {
     if (activeCoords.zipClicked === true) {
       console.log("rendering")
       map.fitBounds(activeCoords.coordinates, {
-        duration: 2000,
+        duration: 4000,
       })
     }
     return
