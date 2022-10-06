@@ -4,23 +4,23 @@ import * as styles from "../styles/styles.module.css"
 
 const FilterTypes = () => {
 
-  const { handleCheckType, typeChecked, typeIsChecked, types } = useContext(GlobalContext)
+  const { handleCheckType, checkedTypes, types } = useContext(GlobalContext)
 
   return (
     <div className={styles.servicesContainer}>
       <div className="title">Types</div>
       <div className="list-container">
-        {Object.keys(types).map((type, index) => (
+        {types.map((type, index) => (
           <div key={index}>
             <input value={type} type="checkbox" onChange={handleCheckType} />
             <span>
-              {types[type]} id: {type}
+              {type}
             </span>
           </div>
         ))}
       </div>
       {/* display checked services */}
-      {/* <div>{`Services checked: ${checked}`}</div> */}
+      <div>{`Types checked: ${checkedTypes}`}</div>
     </div>
   )
 }

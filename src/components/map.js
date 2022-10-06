@@ -66,8 +66,8 @@ const Map = () => {
       accessToken: MAPBOX_TOKEN,
       style: "mapbox://styles/mapbox/streets-v11",
       // United States [lng, lat]
-      center: [-97.665, 39.2993],
-      zoom: 4.5,
+      // center: [-97.665, 39.2993],
+      // zoom: 4.5,
     })
       .fitBounds([
         [-125.5057, 23.807],

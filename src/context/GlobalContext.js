@@ -23,6 +23,7 @@ export const GlobalProvider = ({ children }) => {
 
   // State with list of all checked services
   const [checked, setChecked] = useState([])
+  const [checkedTypes, setCheckedTypes] = useState([])
 
   // State with list of place clicked
   const [activeCoords, setActiveCoords] = useState({
@@ -122,10 +123,10 @@ export const GlobalProvider = ({ children }) => {
     } else {
       setChecked(updatedList.filter(e => e !== `${event.target.value}`))
     }
-    setActiveCoords({
-      id: 0,
-      coordinates: [-97.665, 39.2993],
-    })
+    // setActiveCoords({
+    //   id: 0,
+    //   coordinates: [-97.665, 39.2993],
+    // })
   }
 
   let isChecked = service =>
@@ -171,7 +172,8 @@ export const GlobalProvider = ({ children }) => {
     1671: "Ultrasound Thyroid Fine Needle Aspiration",
   }
 
-  const types = ['Walkin only', 'Online scheduling', 'Walkin and online scheduling' ]
+  const types = ['Office Hours', 'Appointment Hours', 'Walk-In Hours', 'Appointment and Walk-in Hours']
+  // const types = ['Walkin only', 'Online scheduling', 'Walkin and online scheduling' ]
   // const geoJson = {
   //   features: [],
   // }
@@ -242,6 +244,56 @@ export const GlobalProvider = ({ children }) => {
     setUpdatePlaces(newPlaces)
   }, [checked])
 
+
+  // Add/Remove checked Types from list
+  const handleCheckType = event => {
+    let updatedList = [...checkedTypes]
+    if (event.target.checked === true) {
+      updatedList = [...checkedTypes, event.target.value]
+      setCheckedTypes(updatedList)
+    } else {
+      setCheckedTypes(updatedList.filter(e => e !== `${event.target.value}`))
+    }
+    // setActiveCoords({
+    //   id: 0,
+    //   coordinates: [-97.665, 39.2993],
+    // })
+  }
+
+  // update Markers for Types
+  useEffect(() => {
+    const newPlaces = []
+
+    if (checked[0] === undefined || checked === "" && checkedTypes[0] === undefined || checkedTypes === "") {
+      setUpdatePlaces(allData)
+      return
+    }
+
+    if (checked.length === 1) {
+      updatePlaces.map((place, index) => {
+        if (place.service_ids.includes(checked[0])) {
+          newPlaces.push(place)
+        }
+      })
+      setUpdatePlaces(newPlaces)
+      return
+    }
+
+    updatePlaces.map(place => {
+      checked.map((id, index) => {
+        if (place.service_ids.includes(id)) {
+          newPlaces.push(place)
+        }
+      })
+      // for (let i = 0; i < place.service_ids.length; i++) {
+      //   console.log("este es i= ", i)
+      //   console.log("individual service is = ", place.service_ids[i])
+      // }
+    })
+    setUpdatePlaces(newPlaces)
+  }, [checkedTypes])
+
+
   let allZipcodes = new Array()
   placesData.map(place => {
     allZipcodes.push(place.postal)
@@ -284,6 +336,9 @@ export const GlobalProvider = ({ children }) => {
     handleZipClick,
     handleCityClick,
     clickCity,
+    types,
+    checkedTypes,
+    handleCheckType
     // selected,
     // findCommonElements,
   }

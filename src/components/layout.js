@@ -5,6 +5,7 @@ import Map2 from "./map2"
 import PostList from "./postList"
 import * as styles from "../styles/styles.module.css"
 import ServiceList from "./services"
+import FilterTypes from "./filterTypes"
 
 const Layout = () => {
   // console.log("data from layout=> ",data)
@@ -31,6 +32,7 @@ const Layout = () => {
       <div className={styles.container}>
         <PostList />
         <ServiceList />
+        <FilterTypes />
         <Map />
         {/* <Map2 /> */}
       </div>
