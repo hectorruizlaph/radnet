@@ -1,7 +1,6 @@
 # Gatsby + Mapbox GL JS Blog
 
-![website demo](./demo.gif)
-
+![website demo](./demo1.png)
 
 This is a structure that uses Gatsbyjs + Mapbox GL JS + React hooks.
 
