@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/gatsby-mapbox", 
+  pathPrefix: "/gatsby-mapbox",
   siteMetadata: {
     title: `Radnet Gatsby Mapbox`,
     description: ``,

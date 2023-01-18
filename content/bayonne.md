@@ -1,8 +1,7 @@
 ---
 slug: bayonne
 title: Bayonne
-address: 519 Broadway
-Ste. 155
+address: 519 Broadway Ste. 155
 state: New Jersey
 stateAbbreviation: NJ
 city: Bayonne

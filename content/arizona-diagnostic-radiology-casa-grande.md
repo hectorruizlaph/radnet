@@ -7,8 +7,7 @@ stateAbbreviation: AZ
 city: Casa Grande
 postal: 85122
 url: https://www.arizonadiagnosticradiology.com/locations/casa-grande
-htmlHead: <meta name="description" content="Arizona Diagnostic Radiology - Casa Grande offers MRI and CT scans including other imaging procedures such as DEXA, Mammography, Ultrasound and X-Ray.">
-<link rel="canonical" href="https://www.arizonadiagnosticradiology.com/locations/casa-grande" />
+htmlHead: <meta name="description" content="Arizona Diagnostic Radiology - Casa Grande offers MRI and CT scans including other imaging procedures such as DEXA, Mammography, Ultrasound and X-Ray."><link rel="canonical" href="https://www.arizonadiagnosticradiology.com/locations/casa-grande" />
 body: null
 appointmentUrl: http://connect.azdrg.com
 walkInTitle: Walk-In Hours

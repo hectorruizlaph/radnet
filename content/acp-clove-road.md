@@ -7,9 +7,7 @@ stateAbbreviation: NY
 city: Staten Island
 postal: 10301
 url: https://www.radnet.com/lhr-acpny/locations/acp-clove-road
-htmlHead: <meta name="description" content="Lenox Hill Radiology | ACPNY Clove Road offers MRI, Mammography, Ultrasound, XRay + more. Staten Island, New York Medical Imaging." />
-<meta itemprop="name" content="Lenox Hill Radiology | ACPNY Clove Road | Staten Island MRI, Ultrasound" />
-<meta itemprop="description" content="Lenox Hill Radiology | ACPNY Clove Road offers MRI, Mammograms, Ultrasound + more. Staten Island, New York Medical Imaging." />
+htmlHead: null
 body: null
 appointmentUrl: https://www.radnet.com/lenox-hill-radiology/for-patients/request-appointment
 walkInTitle: Walk-In Hours

@@ -7,11 +7,7 @@ stateAbbreviation: CA
 city: Arcadia
 postal: 91007
 url: /san-gabriel-valley/locations/arcadia-radiology-medical-group
-htmlHead: <meta name="description" content="RadNet San Gabriel Valley - Arcadia Radiology Imaging in Arcadia CA offers MRI and CT scans including other imaging procedures such as Ultrasound, X-Ray, Stereotactic Breast Biopsy and DEXA.">
-<meta name="geo.region" content="US-CA" />
-<meta name="geo.placename" content="Monrovia" />
-<meta name="geo.position" content="34.131255;-118.019185" />
-<meta name="ICBM" content="34.131255, -118.019185" />
+htmlHead: <meta name="description" content="RadNet San Gabriel Valley - Arcadia Radiology Imaging in Arcadia CA offers MRI and CT scans including other imaging procedures such as Ultrasound, X-Ray, Stereotactic Breast Biopsy and DEXA."><meta name="geo.region" content="US-CA" /><meta name="geo.placename" content="Monrovia" /><meta name="geo.position" content="34.131255;-118.019185" /><meta name="ICBM" content="34.131255, -118.019185" />
 body: null
 appointmentUrl: http://connect.radnet.com/SGVPP
 walkInTitle: Walk-In Hours
