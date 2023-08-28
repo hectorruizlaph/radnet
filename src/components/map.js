@@ -9,7 +9,7 @@ import usePlaces from "../hooks/usePlaces"
 
 // replace with your own Mapbox token
 const MAPBOX_TOKEN =
-  "pk.eyJ1IjoiaGVjdG9ybGFwaCIsImEiOiJjazhtYjg5dGMwbHBjM2lxeG40aDBudzJqIn0.NrRc3iTV4ddFu-wx7rBOyw"
+  ""
 
 const mapContainerStyle = {
   width: "100%",
